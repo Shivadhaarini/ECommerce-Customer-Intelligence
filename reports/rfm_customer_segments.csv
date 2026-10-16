@@ -1,0 +1,982 @@
+customer_id,Recency,Frequency,Monetary,R_Score,F_Score,M_Score,Segment,name,age,region,signup_date
+C0001,51,7,34755.29,3,5,4,Loyal Customers,Customer 1,58,North,2025-01-13
+C0002,10,5,37678.31,5,4,4,Champions,Customer 2,35,South,2025-04-25
+C0003,87,5,23560.44,2,4,2,At Risk,Customer 3,26,North,2025-12-13
+C0004,91,4,23181.06,2,3,2,At Risk,Customer 4,52,North,2025-10-30
+C0005,146,5,28931.42,1,4,3,Loyal Customers,Customer 5,45,North,2025-01-16
+C0006,6,6,43981.99,5,4,4,Champions,Customer 6,23,South,2025-04-30
+C0007,31,7,28995.45,4,5,3,Loyal Customers,Customer 7,50,North,2025-10-15
+C0008,36,7,43731.869999999995,3,5,4,Loyal Customers,Customer 8,30,West,2025-04-23
+C0009,3,3,27205.760000000002,5,2,3,Potential Loyalists,Customer 9,46,East,2025-01-04
+C0010,53,2,6190.4400000000005,3,1,1,Others,Customer 10,28,West,2025-06-24
+C0011,44,5,32912.04,3,4,4,Loyal Customers,Customer 11,35,South,2025-04-21
+C0012,57,4,33046.08,2,3,4,At Risk,Customer 12,39,North,2025-02-17
+C0013,73,8,53843.1,2,5,5,Loyal Customers,Customer 13,42,North,2025-07-03
+C0014,8,3,43371.51,5,2,4,Potential Loyalists,Customer 14,40,East,2025-01-23
+C0015,175,2,11238.64,1,1,1,Others,Customer 15,47,North,2025-07-13
+C0016,146,3,16335.400000000001,1,2,2,Others,Customer 16,23,East,2025-11-18
+C0017,31,6,37407.8,4,4,4,Champions,Customer 17,57,East,2025-10-23
+C0018,4,6,45784.979999999996,5,4,5,Champions,Customer 18,30,North,2025-01-24
+C0019,13,5,42998.67,5,4,4,Champions,Customer 19,60,South,2025-05-29
+C0021,88,4,29898.339999999997,2,3,3,At Risk,Customer 21,42,East,2025-08-21
+C0022,14,7,44037.32,5,5,4,Champions,Customer 22,58,East,2025-03-25
+C0023,7,3,23250.300000000003,5,2,2,Potential Loyalists,Customer 23,41,East,2025-04-18
+C0024,180,2,13436.539999999999,1,1,1,Others,Customer 24,60,East,2025-12-26
+C0025,55,5,57778.57,3,4,5,Loyal Customers,Customer 25,59,North,2025-11-08
+C0026,17,5,44131.2,4,4,4,Champions,Customer 26,58,South,2025-10-01
+C0027,61,3,22608.920000000002,2,2,2,Others,Customer 27,33,South,2025-08-25
+C0028,100,2,14720.19,1,1,1,Others,Customer 28,42,East,2025-11-24
+C0029,58,2,20520.16,2,1,2,Others,Customer 29,53,South,2025-12-17
+C0030,43,3,22489.02,3,2,2,Others,Customer 30,38,North,2025-04-28
+C0031,20,4,21219.01,4,3,2,Potential Loyalists,Customer 31,20,East,2025-07-25
+C0032,81,7,45261.69,2,5,5,Loyal Customers,Customer 32,35,North,2025-04-19
+C0033,106,3,13282.61,1,2,1,Others,Customer 33,54,East,2025-04-19
+C0034,11,7,60400.42,5,5,5,Champions,Customer 34,59,West,2025-07-22
+C0035,50,5,43444.44,3,4,4,Loyal Customers,Customer 35,59,West,2025-03-15
+C0036,148,2,27240.82,1,1,3,Others,Customer 36,34,South,2025-05-07
+C0038,75,6,55333.33,2,4,5,Loyal Customers,Customer 38,45,West,2025-07-05
+C0039,69,3,18065.09,2,2,2,Others,Customer 39,32,South,2025-09-18
+C0040,14,5,46006.96,5,4,5,Champions,Customer 40,49,North,2025-01-25
+C0041,19,5,24146.63,4,4,2,Potential Loyalists,Customer 41,25,South,2025-11-18
+C0042,24,8,50794.47,4,5,5,Champions,Customer 42,28,West,2025-11-02
+C0043,16,5,46055.71,4,4,5,Champions,Customer 43,22,West,2025-07-15
+C0044,7,9,53630.08,5,5,5,Champions,Customer 44,56,West,2025-09-28
+C0045,34,4,20976.329999999998,3,3,2,Others,Customer 45,34,North,2025-12-15
+C0046,33,8,50480.51,3,5,5,Loyal Customers,Customer 46,25,East,2025-11-25
+C0047,21,5,38408.77,4,4,4,Champions,Customer 47,39,North,2025-05-31
+C0048,7,7,77288.85,5,5,5,Champions,Customer 48,45,South,2025-08-21
+C0049,80,5,27318.64,2,4,3,Loyal Customers,Customer 49,18,East,2025-09-14
+C0051,38,5,20361.86,3,4,2,Others,Customer 51,37,South,2025-03-20
+C0052,25,4,23924.58,4,3,2,Potential Loyalists,Customer 52,41,South,2025-10-04
+C0053,23,4,13402.9,4,3,1,Potential Loyalists,Customer 53,51,North,2025-11-03
+C0054,23,4,26361.87,4,3,3,Potential Loyalists,Customer 54,38,West,2025-01-10
+C0055,90,2,11928.71,2,1,1,Others,Customer 55,25,East,2025-06-07
+C0056,41,2,17354.24,3,1,2,Others,Customer 56,33,North,2025-05-04
+C0057,95,2,11482.89,1,1,1,Others,Customer 57,54,North,2025-02-13
+C0058,82,1,3566.85,2,1,1,Others,Customer 58,49,North,2025-09-30
+C0059,67,2,16575.120000000003,2,1,2,Others,Customer 59,26,South,2025-12-04
+C0060,44,1,8561.02,3,1,1,Others,Customer 60,48,South,2025-05-16
+C0061,103,5,45975.590000000004,1,4,5,Loyal Customers,Customer 61,51,West,2025-04-19
+C0062,14,9,57089.75,5,5,5,Champions,Customer 62,52,South,2026-01-01
+C0063,29,4,25853.22,4,3,3,Potential Loyalists,Customer 63,37,West,2025-12-10
+C0064,60,2,20241.42,2,1,2,Others,Customer 64,59,East,2025-08-13
+C0065,31,3,22414.06,4,2,2,Potential Loyalists,Customer 65,51,West,2025-03-03
+C0066,37,3,35023.3,3,2,4,Others,Customer 66,33,South,2025-02-02
+C0067,8,7,55351.71000000001,5,5,5,Champions,Customer 67,39,North,2025-10-29
+C0068,3,6,35767.03,5,4,4,Champions,Customer 68,53,South,2025-10-29
+C0069,97,3,20502.22,1,2,2,Others,Customer 69,32,North,2025-02-06
+C0070,60,6,33031.880000000005,2,4,4,Loyal Customers,Customer 70,58,North,2025-04-28
+C0071,171,4,17720.22,1,3,2,At Risk,Customer 71,22,North,2025-06-19
+C0072,89,2,10517.66,2,1,1,Others,Customer 72,22,South,2025-05-23
+C0073,103,4,27914.93,1,3,3,At Risk,Customer 73,60,West,2025-04-20
+C0074,33,3,13364.25,3,2,1,Others,Customer 74,52,South,2025-10-20
+C0075,37,4,33490.22,3,3,4,Others,Customer 75,54,West,2025-05-05
+C0076,72,6,34078.31,2,4,4,Loyal Customers,Customer 76,48,West,2025-04-08
+C0077,22,2,8626.21,4,1,1,Others,Customer 77,24,North,2025-12-04
+C0078,174,2,9082.35,1,1,1,Others,Customer 78,45,East,2025-08-05
+C0079,21,6,31226.89,4,4,3,Loyal Customers,Customer 79,44,West,2025-01-28
+C0080,24,3,12236.64,4,2,1,Potential Loyalists,Customer 80,59,North,2025-02-01
+C0081,125,2,12269.49,1,1,1,Others,Customer 81,43,East,2025-02-25
+C0082,1,1,12988.92,5,1,1,Others,Customer 82,33,South,2025-04-08
+C0083,198,2,29184.65,1,1,3,Others,Customer 83,52,West,2025-03-13
+C0084,16,4,34735.259999999995,4,3,4,Potential Loyalists,Customer 84,45,South,2025-05-23
+C0085,18,3,17824.88,4,2,2,Potential Loyalists,Customer 85,47,South,2025-02-08
+C0086,5,4,15487.5,5,3,1,Potential Loyalists,Customer 86,46,North,2025-01-26
+C0087,102,3,15829.970000000001,1,2,1,Others,Customer 87,59,North,2025-02-17
+C0088,177,3,25360.71,1,2,3,Others,Customer 88,33,South,2025-07-28
+C0089,26,5,30429.16,4,4,3,Loyal Customers,Customer 89,49,West,2025-04-20
+C0090,40,5,42033.29,3,4,4,Loyal Customers,Customer 90,43,North,2025-03-26
+C0091,9,3,20519.160000000003,5,2,2,Potential Loyalists,Customer 91,42,North,2025-07-19
+C0092,103,6,70897.65,1,4,5,Loyal Customers,Customer 92,34,West,2025-05-27
+C0093,28,4,26585.04,4,3,3,Potential Loyalists,Customer 93,45,West,2025-03-21
+C0094,52,4,30508.92,3,3,3,Others,Customer 94,30,East,2025-04-22
+C0095,44,7,62495.57,3,5,5,Loyal Customers,Customer 95,21,North,2025-06-10
+C0096,34,3,15725.529999999999,3,2,1,Others,Customer 96,21,North,2025-10-27
+C0097,9,4,23486.579999999998,5,3,2,Potential Loyalists,Customer 97,48,South,2025-01-30
+C0098,88,2,11439.92,2,1,1,Others,Customer 98,50,North,2025-04-06
+C0099,7,5,25084.36,5,4,3,Loyal Customers,Customer 99,22,North,2025-12-12
+C0100,65,3,30200.7,2,2,3,Others,Customer 100,33,West,2025-03-03
+C0101,59,5,37655.04,2,4,4,Loyal Customers,Customer 101,54,South,2025-10-24
+C0102,15,5,44563.43,5,4,5,Champions,Customer 102,56,North,2025-11-14
+C0103,150,4,36901.56,1,3,4,At Risk,Customer 103,23,West,2025-12-03
+C0104,7,7,55229.450000000004,5,5,5,Champions,Customer 104,55,East,2025-05-14
+C0105,246,1,9230.16,1,1,1,Others,Customer 105,31,East,2025-05-03
+C0106,114,6,42812.759999999995,1,4,4,Loyal Customers,Customer 106,34,West,2025-03-09
+C0107,139,3,25003.81,1,2,3,Others,Customer 107,60,East,2025-08-23
+C0108,96,5,43379.090000000004,1,4,4,Loyal Customers,Customer 108,38,North,2025-01-05
+C0109,30,7,59298.009999999995,4,5,5,Champions,Customer 109,47,North,2025-02-07
+C0110,55,4,32371.0,3,3,4,Others,Customer 110,52,South,2025-09-17
+C0111,164,4,25211.39,1,3,3,At Risk,Customer 111,34,South,2025-06-28
+C0112,53,4,25348.91,3,3,3,Others,Customer 112,22,South,2025-07-09
+C0113,62,6,38665.17,2,4,4,Loyal Customers,Customer 113,36,South,2025-08-13
+C0114,86,4,17272.15,2,3,2,At Risk,Customer 114,52,East,2025-11-10
+C0115,50,6,36655.59,3,4,4,Loyal Customers,Customer 115,59,North,2025-12-08
+C0116,18,5,31807.47,4,4,4,Champions,Customer 116,53,East,2025-12-06
+C0117,29,3,10861.77,4,2,1,Potential Loyalists,Customer 117,24,South,2025-05-16
+C0118,10,8,59662.61,5,5,5,Champions,Customer 118,25,North,2025-10-11
+C0119,23,9,58344.76,4,5,5,Champions,Customer 119,27,East,2025-05-25
+C0120,108,5,31929.41,1,4,4,Loyal Customers,Customer 120,56,South,2025-06-25
+C0121,9,6,46305.700000000004,5,4,5,Champions,Customer 121,31,East,2025-09-16
+C0122,29,3,10965.400000000001,4,2,1,Potential Loyalists,Customer 122,49,East,2025-01-27
+C0123,21,4,19197.5,4,3,2,Potential Loyalists,Customer 123,23,West,2025-05-22
+C0124,74,6,36350.479999999996,2,4,4,Loyal Customers,Customer 124,20,North,2025-06-20
+C0125,12,4,26442.82,5,3,3,Potential Loyalists,Customer 125,26,East,2025-03-24
+C0126,32,6,42620.67,4,4,4,Champions,Customer 126,46,West,2025-10-15
+C0127,4,4,16844.02,5,3,2,Potential Loyalists,Customer 127,18,North,2025-02-08
+C0128,41,2,19237.12,3,1,2,Others,Customer 128,27,North,2025-07-09
+C0129,138,3,26479.39,1,2,3,Others,Customer 129,55,South,2025-08-09
+C0130,108,10,56651.97,1,5,5,Loyal Customers,Customer 130,26,North,2025-06-07
+C0131,55,7,31347.96,3,5,3,Loyal Customers,Customer 131,41,North,2025-07-03
+C0132,14,8,55222.45,5,5,5,Champions,Customer 132,31,South,2025-12-08
+C0133,2,2,5957.0599999999995,5,1,1,Others,Customer 133,24,East,2025-10-14
+C0134,56,3,14441.41,3,2,1,Others,Customer 134,44,South,2025-05-02
+C0135,49,7,56552.69,3,5,5,Loyal Customers,Customer 135,28,South,2025-07-31
+C0136,90,11,103197.99,2,5,5,Loyal Customers,Customer 136,19,South,2025-06-20
+C0137,2,5,28321.440000000002,5,4,3,Loyal Customers,Customer 137,44,South,2025-05-17
+C0138,74,4,47695.82,2,3,5,At Risk,Customer 138,28,North,2025-07-15
+C0139,71,2,9523.529999999999,2,1,1,Others,Customer 139,20,West,2025-04-24
+C0140,50,4,33579.55,3,3,4,Others,Customer 140,30,West,2025-06-29
+C0141,54,3,25329.059999999998,3,2,3,Others,Customer 141,37,South,2025-04-25
+C0142,66,2,12127.87,2,1,1,Others,Customer 142,19,South,2025-07-24
+C0143,171,2,29565.77,1,1,3,Others,Customer 143,39,East,2025-02-05
+C0144,3,8,59337.009999999995,5,5,5,Champions,Customer 144,35,East,2025-11-25
+C0145,6,8,73440.51000000001,5,5,5,Champions,Customer 145,50,West,2025-12-14
+C0146,119,4,26802.73,1,3,3,At Risk,Customer 146,52,East,2025-01-15
+C0147,111,2,6877.97,1,1,1,Others,Customer 147,25,East,2025-04-02
+C0148,58,4,28663.14,2,3,3,At Risk,Customer 148,55,East,2025-01-20
+C0149,192,1,1279.25,1,1,1,Others,Customer 149,24,West,2025-06-26
+C0150,135,2,11306.89,1,1,1,Others,Customer 150,38,West,2025-11-07
+C0151,33,6,31610.02,3,4,4,Loyal Customers,Customer 151,50,North,2025-07-17
+C0152,44,5,28303.19,3,4,3,Loyal Customers,Customer 152,54,South,2025-05-11
+C0153,153,3,21362.57,1,2,2,Others,Customer 153,20,West,2025-01-01
+C0154,101,4,24656.050000000003,1,3,3,At Risk,Customer 154,51,South,2025-07-06
+C0155,4,3,27022.58,5,2,3,Potential Loyalists,Customer 155,45,North,2025-12-07
+C0156,46,9,71725.15,3,5,5,Loyal Customers,Customer 156,39,East,2025-12-06
+C0157,12,6,48010.64,5,4,5,Champions,Customer 157,25,East,2025-09-17
+C0158,17,8,49234.67,4,5,5,Champions,Customer 158,37,West,2025-06-17
+C0159,160,3,20006.629999999997,1,2,2,Others,Customer 159,43,East,2025-10-11
+C0160,257,2,9855.88,1,1,1,Others,Customer 160,26,South,2025-08-04
+C0161,22,6,24901.690000000002,4,4,3,Loyal Customers,Customer 161,60,West,2025-12-13
+C0162,21,3,17872.5,4,2,2,Potential Loyalists,Customer 162,29,East,2025-07-27
+C0163,16,3,8565.15,4,2,1,Potential Loyalists,Customer 163,53,North,2025-06-05
+C0164,72,4,33091.240000000005,2,3,4,At Risk,Customer 164,36,South,2025-08-09
+C0165,95,4,16443.98,1,3,2,At Risk,Customer 165,55,East,2025-08-27
+C0166,3,6,53499.020000000004,5,4,5,Champions,Customer 166,46,West,2025-12-12
+C0167,27,5,34184.259999999995,4,4,4,Champions,Customer 167,31,West,2025-03-28
+C0168,34,7,45604.350000000006,3,5,5,Loyal Customers,Customer 168,60,North,2025-05-26
+C0169,22,8,35157.04,4,5,4,Champions,Customer 169,50,East,2025-02-17
+C0170,126,4,30702.24,1,3,3,At Risk,Customer 170,33,East,2025-04-26
+C0171,46,4,29531.89,3,3,3,Others,Customer 171,30,South,2025-01-13
+C0172,21,4,29162.95,4,3,3,Potential Loyalists,Customer 172,20,South,2025-09-01
+C0173,9,2,12243.970000000001,5,1,1,Others,Customer 173,57,North,2025-08-22
+C0174,19,3,18993.02,4,2,2,Potential Loyalists,Customer 174,44,South,2025-12-23
+C0175,74,5,21227.39,2,4,2,At Risk,Customer 175,42,West,2025-07-24
+C0176,97,5,23106.97,1,4,2,At Risk,Customer 176,33,South,2025-12-02
+C0177,32,1,1488.98,4,1,1,Others,Customer 177,18,North,2025-08-06
+C0178,11,8,62695.7,5,5,5,Champions,Customer 178,32,South,2025-12-23
+C0179,66,5,33915.009999999995,2,4,4,Loyal Customers,Customer 179,51,West,2025-01-26
+C0180,21,5,41293.39,4,4,4,Champions,Customer 180,53,South,2025-03-04
+C0181,14,6,51732.03,5,4,5,Champions,Customer 181,47,South,2025-08-26
+C0182,110,8,64406.62,1,5,5,Loyal Customers,Customer 182,60,East,2025-08-15
+C0183,69,3,14179.32,2,2,1,Others,Customer 183,57,West,2025-10-08
+C0184,68,4,21235.15,2,3,2,At Risk,Customer 184,46,South,2025-09-01
+C0185,110,5,26772.22,1,4,3,Loyal Customers,Customer 185,46,East,2025-05-07
+C0186,101,2,3303.69,1,1,1,Others,Customer 186,58,East,2025-09-24
+C0187,72,2,27832.25,2,1,3,Others,Customer 187,49,South,2025-05-21
+C0188,34,8,64535.28,3,5,5,Loyal Customers,Customer 188,46,North,2026-01-01
+C0189,34,6,34439.95,3,4,4,Loyal Customers,Customer 189,36,South,2025-05-20
+C0190,150,4,22349.27,1,3,2,At Risk,Customer 190,39,East,2025-10-04
+C0191,126,3,33789.78,1,2,4,Others,Customer 191,23,South,2025-03-19
+C0192,241,2,26136.4,1,1,3,Others,Customer 192,32,West,2025-12-22
+C0193,67,6,71599.42,2,4,5,Loyal Customers,Customer 193,27,South,2025-02-02
+C0194,18,1,4765.08,4,1,1,Others,Customer 194,44,West,2025-06-19
+C0195,24,3,24366.94,4,2,3,Potential Loyalists,Customer 195,52,West,2025-08-01
+C0197,73,4,26444.39,2,3,3,At Risk,Customer 197,42,North,2025-10-22
+C0198,79,3,33621.54,2,2,4,Others,Customer 198,42,West,2025-01-04
+C0199,3,7,24602.51,5,5,3,Loyal Customers,Customer 199,40,East,2025-07-19
+C0200,39,6,52337.840000000004,3,4,5,Loyal Customers,Customer 200,44,South,2025-09-07
+C0201,93,5,41947.81,2,4,4,Loyal Customers,Customer 201,32,East,2025-08-12
+C0202,77,1,8516.07,2,1,1,Others,Customer 202,49,North,2025-07-19
+C0203,56,3,19356.9,3,2,2,Others,Customer 203,39,West,2025-03-26
+C0204,128,4,20382.27,1,3,2,At Risk,Customer 204,47,South,2025-11-15
+C0205,38,7,60541.32,3,5,5,Loyal Customers,Customer 205,52,North,2025-07-21
+C0206,54,2,6556.35,3,1,1,Others,Customer 206,55,North,2025-02-12
+C0207,8,3,23775.420000000002,5,2,2,Potential Loyalists,Customer 207,59,West,2025-03-11
+C0208,138,3,20844.440000000002,1,2,2,Others,Customer 208,47,South,2025-01-26
+C0209,83,6,40445.100000000006,2,4,4,Loyal Customers,Customer 209,34,West,2025-06-17
+C0210,14,3,35424.49,5,2,4,Potential Loyalists,Customer 210,31,West,2025-06-17
+C0211,33,6,42149.32,3,4,4,Loyal Customers,Customer 211,39,West,2025-05-23
+C0212,13,6,32032.66,5,4,4,Champions,Customer 212,44,East,2025-02-11
+C0213,31,5,26143.57,4,4,3,Loyal Customers,Customer 213,48,North,2025-10-04
+C0214,3,7,56946.979999999996,5,5,5,Champions,Customer 214,21,East,2025-04-25
+C0215,23,5,40010.259999999995,4,4,4,Champions,Customer 215,59,North,2025-11-30
+C0216,10,4,46121.5,5,3,5,Potential Loyalists,Customer 216,20,North,2025-05-07
+C0217,57,5,38222.57,2,4,4,Loyal Customers,Customer 217,30,North,2025-11-15
+C0218,20,5,21108.64,4,4,2,Potential Loyalists,Customer 218,27,South,2025-03-06
+C0219,27,4,43029.979999999996,4,3,4,Potential Loyalists,Customer 219,48,North,2025-10-16
+C0220,106,3,16202.93,1,2,1,Others,Customer 220,31,West,2025-12-25
+C0221,30,4,36673.29,4,3,4,Potential Loyalists,Customer 221,34,East,2025-03-27
+C0222,32,2,8866.98,4,1,1,Others,Customer 222,56,North,2025-03-25
+C0223,25,3,28803.84,4,2,3,Potential Loyalists,Customer 223,37,North,2025-10-24
+C0224,7,3,17396.15,5,2,2,Potential Loyalists,Customer 224,19,East,2025-10-22
+C0225,144,4,20343.88,1,3,2,At Risk,Customer 225,42,West,2025-04-12
+C0226,32,5,38119.46,4,4,4,Champions,Customer 226,22,South,2025-02-22
+C0227,164,3,16240.740000000002,1,2,2,Others,Customer 227,37,North,2025-10-17
+C0228,30,6,34436.54,4,4,4,Champions,Customer 228,20,East,2025-09-30
+C0229,50,4,30347.29,3,3,3,Others,Customer 229,45,East,2025-02-05
+C0230,128,4,34338.93,1,3,4,At Risk,Customer 230,50,East,2025-01-07
+C0231,227,2,3100.11,1,1,1,Others,Customer 231,44,West,2025-02-24
+C0232,33,1,2133.68,3,1,1,Others,Customer 232,45,East,2025-11-22
+C0233,55,3,18345.870000000003,3,2,2,Others,Customer 233,47,South,2025-08-11
+C0234,71,1,8467.5,2,1,1,Others,Customer 234,29,East,2025-11-12
+C0235,28,6,36403.58,4,4,4,Champions,Customer 235,52,West,2025-08-27
+C0236,136,1,4829.68,1,1,1,Others,Customer 236,45,East,2025-06-15
+C0237,101,5,47044.28,1,4,5,Loyal Customers,Customer 237,33,North,2025-05-23
+C0238,62,2,19012.949999999997,2,1,2,Others,Customer 238,46,South,2025-08-26
+C0239,196,2,21279.05,1,1,2,Others,Customer 239,54,West,2025-06-22
+C0240,155,2,9935.18,1,1,1,Others,Customer 240,19,West,2025-06-16
+C0241,25,5,47113.32,4,4,5,Champions,Customer 241,29,West,2025-04-19
+C0242,43,4,19216.63,3,3,2,Others,Customer 242,40,East,2025-06-24
+C0243,17,4,26301.16,4,3,3,Potential Loyalists,Customer 243,35,East,2025-10-12
+C0244,69,3,9195.84,2,2,1,Others,Customer 244,18,South,2025-02-13
+C0245,1,3,33510.44,5,2,4,Potential Loyalists,Customer 245,33,West,2025-09-08
+C0246,114,2,5675.889999999999,1,1,1,Others,Customer 246,53,South,2025-12-20
+C0247,23,6,67264.29,4,4,5,Champions,Customer 247,48,West,2025-08-18
+C0248,17,3,26573.03,4,2,3,Potential Loyalists,Customer 248,19,North,2025-05-31
+C0249,68,3,31536.58,2,2,4,Others,Customer 249,32,West,2025-12-21
+C0250,5,3,34343.92,5,2,4,Potential Loyalists,Customer 250,33,East,2025-12-06
+C0251,19,7,26280.51,4,5,3,Loyal Customers,Customer 251,55,East,2025-08-31
+C0252,80,7,41653.61,2,5,4,Loyal Customers,Customer 252,53,East,2025-08-06
+C0253,5,7,71303.65,5,5,5,Champions,Customer 253,53,East,2025-06-30
+C0254,106,2,22535.140000000003,1,1,2,Others,Customer 254,47,East,2025-06-06
+C0255,96,9,78505.96,1,5,5,Loyal Customers,Customer 255,34,South,2025-03-03
+C0256,33,4,24243.47,3,3,3,Others,Customer 256,30,East,2025-03-03
+C0257,25,4,23796.67,4,3,2,Potential Loyalists,Customer 257,52,South,2025-04-09
+C0258,16,4,16826.93,4,3,2,Potential Loyalists,Customer 258,31,West,2025-05-22
+C0259,2,4,14988.259999999998,5,3,1,Potential Loyalists,Customer 259,55,East,2025-02-21
+C0260,162,1,2549.4,1,1,1,Others,Customer 260,30,East,2025-04-27
+C0261,89,4,20798.56,2,3,2,At Risk,Customer 261,41,South,2025-06-04
+C0262,84,6,30361.58,2,4,3,Loyal Customers,Customer 262,18,South,2025-05-21
+C0263,140,1,3237.3,1,1,1,Others,Customer 263,20,North,2025-10-11
+C0264,123,3,24169.74,1,2,2,Others,Customer 264,36,South,2025-11-23
+C0265,67,4,17453.11,2,3,2,At Risk,Customer 265,49,North,2025-01-07
+C0266,13,7,61878.25,5,5,5,Champions,Customer 266,54,East,2025-08-29
+C0267,10,6,22417.47,5,4,2,Potential Loyalists,Customer 267,48,West,2025-06-24
+C0268,18,5,21321.44,4,4,2,Potential Loyalists,Customer 268,29,North,2025-05-10
+C0269,42,6,49751.61,3,4,5,Loyal Customers,Customer 269,48,North,2025-02-03
+C0270,35,9,53218.35,3,5,5,Loyal Customers,Customer 270,43,West,2025-02-07
+C0271,23,4,21565.22,4,3,2,Potential Loyalists,Customer 271,54,North,2025-03-19
+C0272,26,3,12308.84,4,2,1,Potential Loyalists,Customer 272,27,East,2025-02-13
+C0273,53,3,23770.86,3,2,2,Others,Customer 273,33,North,2025-10-13
+C0274,16,4,11920.74,4,3,1,Potential Loyalists,Customer 274,44,South,2025-09-25
+C0275,42,5,20811.06,3,4,2,Others,Customer 275,42,West,2025-08-15
+C0276,40,5,29515.940000000002,3,4,3,Loyal Customers,Customer 276,37,West,2025-06-06
+C0277,219,1,5312.97,1,1,1,Others,Customer 277,54,North,2025-11-09
+C0278,85,5,40719.55,2,4,4,Loyal Customers,Customer 278,24,South,2025-11-17
+C0279,9,8,76710.78,5,5,5,Champions,Customer 279,31,East,2025-12-05
+C0280,44,5,26195.489999999998,3,4,3,Loyal Customers,Customer 280,23,South,2025-05-03
+C0281,22,3,35887.47,4,2,4,Potential Loyalists,Customer 281,29,North,2025-03-22
+C0282,76,4,15863.199999999999,2,3,1,At Risk,Customer 282,18,West,2025-08-19
+C0283,7,4,24986.83,5,3,3,Potential Loyalists,Customer 283,56,West,2025-05-30
+C0284,98,3,17123.51,1,2,2,Others,Customer 284,20,South,2025-05-28
+C0285,136,4,29321.08,1,3,3,At Risk,Customer 285,36,West,2025-02-06
+C0286,68,6,32298.91,2,4,4,Loyal Customers,Customer 286,32,East,2025-11-17
+C0287,10,3,25616.78,5,2,3,Potential Loyalists,Customer 287,55,South,2025-08-06
+C0288,43,3,20619.48,3,2,2,Others,Customer 288,25,South,2025-11-28
+C0289,67,6,52757.01,2,4,5,Loyal Customers,Customer 289,27,East,2025-03-14
+C0290,210,1,3241.41,1,1,1,Others,Customer 290,22,North,2025-03-26
+C0291,30,4,31170.42,4,3,3,Potential Loyalists,Customer 291,37,East,2025-08-13
+C0292,107,5,46656.65,1,4,5,Loyal Customers,Customer 292,25,West,2025-12-19
+C0293,34,2,7313.8,3,1,1,Others,Customer 293,37,West,2025-05-20
+C0294,1,6,22273.88,5,4,2,Potential Loyalists,Customer 294,50,West,2025-08-13
+C0295,38,4,26806.7,3,3,3,Others,Customer 295,23,North,2025-08-10
+C0296,82,5,26559.95,2,4,3,Loyal Customers,Customer 296,38,East,2025-01-14
+C0297,170,6,45524.25,1,4,5,Loyal Customers,Customer 297,23,South,2025-12-12
+C0299,166,4,33142.35,1,3,4,At Risk,Customer 299,35,North,2025-03-31
+C0300,84,4,41424.98,2,3,4,At Risk,Customer 300,48,West,2025-05-23
+C0301,74,3,13640.31,2,2,1,Others,Customer 301,29,West,2025-11-22
+C0302,11,5,31473.07,5,4,3,Loyal Customers,Customer 302,49,North,2025-08-29
+C0303,86,5,54503.51,2,4,5,Loyal Customers,Customer 303,40,West,2025-06-20
+C0304,18,3,24401.15,4,2,3,Potential Loyalists,Customer 304,38,North,2025-03-24
+C0305,19,4,20191.72,4,3,2,Potential Loyalists,Customer 305,39,West,2025-12-22
+C0306,40,4,23924.53,3,3,2,Others,Customer 306,49,East,2025-12-06
+C0307,67,2,7737.299999999999,2,1,1,Others,Customer 307,43,North,2025-08-21
+C0308,23,12,91770.94,4,5,5,Champions,Customer 308,23,East,2025-05-10
+C0309,1,6,37443.04,5,4,4,Champions,Customer 309,38,North,2025-07-26
+C0310,5,6,49933.659999999996,5,4,5,Champions,Customer 310,50,North,2025-12-03
+C0311,44,4,24311.66,3,3,3,Others,Customer 311,52,West,2025-07-31
+C0312,17,7,55978.32,4,5,5,Champions,Customer 312,21,South,2025-09-23
+C0313,2,6,54426.7,5,4,5,Champions,Customer 313,41,West,2025-11-17
+C0314,34,3,30601.36,3,2,3,Others,Customer 314,46,North,2025-04-15
+C0315,2,4,21366.09,5,3,2,Potential Loyalists,Customer 315,35,South,2025-05-28
+C0316,60,3,19626.89,2,2,2,Others,Customer 316,46,West,2025-03-04
+C0317,5,5,32434.620000000003,5,4,4,Champions,Customer 317,19,South,2025-12-30
+C0318,42,2,15216.420000000002,3,1,1,Others,Customer 318,28,East,2025-10-10
+C0319,224,2,6119.74,1,1,1,Others,Customer 319,18,West,2025-02-17
+C0320,7,4,20571.45,5,3,2,Potential Loyalists,Customer 320,32,North,2025-08-25
+C0321,215,1,3024.63,1,1,1,Others,Customer 321,25,South,2025-09-13
+C0322,38,6,35765.81,3,4,4,Loyal Customers,Customer 322,36,East,2025-08-01
+C0323,132,6,58431.21,1,4,5,Loyal Customers,Customer 323,48,West,2025-05-05
+C0324,158,2,18220.14,1,1,2,Others,Customer 324,47,South,2025-07-16
+C0325,2,2,30064.160000000003,5,1,3,Others,Customer 325,30,South,2025-02-05
+C0326,73,4,57188.82,2,3,5,At Risk,Customer 326,35,West,2025-06-24
+C0327,90,2,5418.12,2,1,1,Others,Customer 327,50,East,2025-01-02
+C0328,29,4,17970.870000000003,4,3,2,Potential Loyalists,Customer 328,36,East,2025-10-28
+C0329,1,6,58798.36,5,4,5,Champions,Customer 329,55,West,2025-03-18
+C0330,26,2,16971.72,4,1,2,Others,Customer 330,46,West,2025-06-26
+C0331,71,3,13606.09,2,2,1,Others,Customer 331,39,West,2025-08-22
+C0332,95,2,22508.66,1,1,2,Others,Customer 332,38,South,2025-12-24
+C0333,14,2,19081.0,5,1,2,Others,Customer 333,33,West,2025-04-30
+C0334,36,7,33516.42,3,5,4,Loyal Customers,Customer 334,44,North,2025-06-12
+C0335,47,5,24130.44,3,4,2,Others,Customer 335,48,West,2025-07-17
+C0336,75,7,49179.01,2,5,5,Loyal Customers,Customer 336,60,South,2025-09-11
+C0337,42,1,6002.49,3,1,1,Others,Customer 337,20,South,2025-09-15
+C0338,119,3,28279.260000000002,1,2,3,Others,Customer 338,55,East,2025-02-21
+C0339,6,3,39123.32,5,2,4,Potential Loyalists,Customer 339,46,North,2025-09-27
+C0340,41,6,40288.04,3,4,4,Loyal Customers,Customer 340,47,North,2025-03-15
+C0341,15,5,48834.81,5,4,5,Champions,Customer 341,44,South,2025-02-08
+C0342,71,5,22820.12,2,4,2,At Risk,Customer 342,48,East,2025-06-23
+C0343,25,5,34150.75,4,4,4,Champions,Customer 343,57,West,2025-11-29
+C0344,44,3,9013.06,3,2,1,Others,Customer 344,23,East,2025-12-12
+C0345,32,3,36197.82,4,2,4,Potential Loyalists,Customer 345,52,West,2025-06-12
+C0346,61,5,42628.22,2,4,4,Loyal Customers,Customer 346,58,West,2025-10-05
+C0347,76,4,44036.67,2,3,4,At Risk,Customer 347,20,North,2025-05-01
+C0348,143,2,13020.34,1,1,1,Others,Customer 348,58,East,2025-04-27
+C0349,22,5,60856.53,4,4,5,Champions,Customer 349,23,West,2025-02-20
+C0350,45,5,28143.09,3,4,3,Loyal Customers,Customer 350,58,North,2025-08-16
+C0351,8,6,43340.74,5,4,4,Champions,Customer 351,28,East,2025-01-15
+C0352,42,9,69268.08,3,5,5,Loyal Customers,Customer 352,20,East,2025-01-29
+C0353,32,3,26689.059999999998,4,2,3,Potential Loyalists,Customer 353,36,East,2025-07-11
+C0354,90,3,21172.88,2,2,2,Others,Customer 354,45,South,2025-05-06
+C0355,56,6,25722.66,3,4,3,Loyal Customers,Customer 355,51,West,2025-10-17
+C0356,5,5,32045.43,5,4,4,Champions,Customer 356,29,South,2025-03-31
+C0357,73,6,39269.28,2,4,4,Loyal Customers,Customer 357,23,West,2025-11-14
+C0358,6,3,40402.28,5,2,4,Potential Loyalists,Customer 358,33,West,2025-10-26
+C0359,76,4,42389.07,2,3,4,At Risk,Customer 359,27,South,2025-08-25
+C0360,65,3,27372.550000000003,2,2,3,Others,Customer 360,58,East,2025-08-24
+C0361,95,5,40986.25,1,4,4,Loyal Customers,Customer 361,34,North,2025-08-27
+C0362,35,3,40787.16,3,2,4,Others,Customer 362,36,South,2025-02-07
+C0363,38,6,31428.82,3,4,3,Loyal Customers,Customer 363,46,East,2025-10-28
+C0364,18,5,27936.6,4,4,3,Loyal Customers,Customer 364,37,West,2025-12-20
+C0365,37,1,1701.66,3,1,1,Others,Customer 365,34,West,2025-06-04
+C0366,94,2,23857.550000000003,2,1,2,Others,Customer 366,30,West,2025-09-05
+C0367,236,3,14450.64,1,2,1,Others,Customer 367,24,South,2025-07-15
+C0368,35,8,57141.86,3,5,5,Loyal Customers,Customer 368,54,East,2025-10-22
+C0369,18,6,43956.02,4,4,4,Champions,Customer 369,36,East,2025-01-12
+C0370,45,7,45479.15,3,5,5,Loyal Customers,Customer 370,60,West,2025-05-21
+C0371,136,3,3986.17,1,2,1,Others,Customer 371,18,North,2025-11-07
+C0372,135,2,6107.01,1,1,1,Others,Customer 372,49,East,2025-04-28
+C0373,94,4,55119.57,2,3,5,At Risk,Customer 373,56,East,2025-04-23
+C0374,49,3,27190.88,3,2,3,Others,Customer 374,58,South,2025-11-14
+C0375,140,5,45791.78,1,4,5,Loyal Customers,Customer 375,34,South,2025-11-18
+C0376,91,1,3708.47,2,1,1,Others,Customer 376,24,North,2025-06-08
+C0377,8,4,22274.38,5,3,2,Potential Loyalists,Customer 377,46,North,2025-10-24
+C0378,16,4,33471.61,4,3,4,Potential Loyalists,Customer 378,41,South,2025-02-16
+C0379,4,7,59698.82000000001,5,5,5,Champions,Customer 379,36,East,2025-08-01
+C0380,2,4,22682.309999999998,5,3,2,Potential Loyalists,Customer 380,29,South,2025-03-09
+C0381,113,4,19236.12,1,3,2,At Risk,Customer 381,52,East,2025-09-29
+C0382,42,7,57211.85,3,5,5,Loyal Customers,Customer 382,50,East,2025-03-26
+C0383,20,10,66347.75,4,5,5,Champions,Customer 383,34,West,2025-06-01
+C0384,1,5,16962.28,5,4,2,Potential Loyalists,Customer 384,39,North,2025-08-28
+C0385,69,4,20698.97,2,3,2,At Risk,Customer 385,22,South,2025-04-26
+C0386,38,6,42179.270000000004,3,4,4,Loyal Customers,Customer 386,43,East,2025-02-16
+C0387,5,6,42189.68,5,4,4,Champions,Customer 387,43,North,2025-05-16
+C0388,8,5,27958.010000000002,5,4,3,Loyal Customers,Customer 388,52,North,2025-08-21
+C0389,32,1,2014.8,4,1,1,Others,Customer 389,41,East,2025-10-27
+C0390,5,7,65109.96,5,5,5,Champions,Customer 390,42,East,2025-02-25
+C0391,22,7,58940.54,4,5,5,Champions,Customer 391,32,West,2025-01-13
+C0392,53,5,23864.54,3,4,2,Others,Customer 392,57,East,2025-11-09
+C0393,3,5,27396.54,5,4,3,Loyal Customers,Customer 393,32,North,2025-11-22
+C0394,12,4,31201.58,5,3,3,Potential Loyalists,Customer 394,47,East,2025-11-29
+C0395,123,1,2949.03,1,1,1,Others,Customer 395,44,North,2025-03-13
+C0396,51,2,24396.28,3,1,3,Others,Customer 396,20,North,2025-06-05
+C0397,113,5,24952.370000000003,1,4,3,Loyal Customers,Customer 397,49,North,2025-02-19
+C0398,16,4,13531.16,4,3,1,Potential Loyalists,Customer 398,33,South,2025-07-18
+C0399,19,5,16619.35,4,4,2,Potential Loyalists,Customer 399,47,East,2025-12-10
+C0400,65,3,24509.02,2,2,3,Others,Customer 400,52,West,2025-10-28
+C0401,72,10,50778.74,2,5,5,Loyal Customers,Customer 401,27,West,2025-12-02
+C0402,91,2,17002.22,2,1,2,Others,Customer 402,24,West,2025-11-12
+C0403,15,9,62177.53,5,5,5,Champions,Customer 403,44,East,2025-01-17
+C0404,223,2,29107.8,1,1,3,Others,Customer 404,41,South,2025-08-16
+C0405,211,3,12038.57,1,2,1,Others,Customer 405,46,South,2025-07-05
+C0406,31,7,44450.55,4,5,4,Champions,Customer 406,24,East,2025-10-06
+C0407,53,4,24075.940000000002,3,3,2,Others,Customer 407,59,East,2025-02-01
+C0408,41,8,51435.619999999995,3,5,5,Loyal Customers,Customer 408,43,East,2025-04-08
+C0409,51,4,17979.239999999998,3,3,2,Others,Customer 409,25,West,2025-02-16
+C0410,17,2,19413.33,4,1,2,Others,Customer 410,60,South,2025-11-25
+C0411,7,5,31456.36,5,4,3,Loyal Customers,Customer 411,58,North,2025-01-26
+C0412,3,4,33388.89,5,3,4,Potential Loyalists,Customer 412,39,South,2025-03-06
+C0413,3,5,38007.53,5,4,4,Champions,Customer 413,54,South,2025-02-05
+C0414,5,9,73184.8,5,5,5,Champions,Customer 414,53,South,2025-10-28
+C0415,108,6,26432.71,1,4,3,Loyal Customers,Customer 415,31,South,2025-06-18
+C0416,51,2,4930.33,3,1,1,Others,Customer 416,27,North,2025-05-22
+C0417,33,4,37007.520000000004,3,3,4,Others,Customer 417,27,South,2025-10-04
+C0418,16,7,52348.619999999995,4,5,5,Champions,Customer 418,34,South,2025-02-26
+C0419,4,4,26182.58,5,3,3,Potential Loyalists,Customer 419,60,North,2025-03-09
+C0421,192,2,2596.2,1,1,1,Others,Customer 421,55,East,2025-01-09
+C0422,128,2,15592.349999999999,1,1,1,Others,Customer 422,29,East,2025-01-27
+C0423,9,5,30627.149999999998,5,4,3,Loyal Customers,Customer 423,26,West,2025-09-27
+C0424,88,5,46665.0,2,4,5,Loyal Customers,Customer 424,25,North,2025-09-01
+C0425,148,3,31245.37,1,2,3,Others,Customer 425,46,East,2025-09-20
+C0426,80,4,31463.79,2,3,3,At Risk,Customer 426,55,North,2025-08-20
+C0427,110,5,31711.54,1,4,4,Loyal Customers,Customer 427,50,South,2025-11-11
+C0428,155,3,21591.050000000003,1,2,2,Others,Customer 428,20,East,2025-08-23
+C0429,20,2,15426.84,4,1,1,Others,Customer 429,59,North,2025-02-01
+C0430,16,5,42839.23,4,4,4,Champions,Customer 430,48,West,2025-08-07
+C0431,115,3,21618.64,1,2,2,Others,Customer 431,24,West,2025-12-31
+C0432,22,4,34690.32,4,3,4,Potential Loyalists,Customer 432,46,North,2025-02-11
+C0433,10,5,29910.23,5,4,3,Loyal Customers,Customer 433,38,South,2025-02-03
+C0434,42,7,47380.68,3,5,5,Loyal Customers,Customer 434,26,East,2025-11-16
+C0435,13,6,39925.7,5,4,4,Champions,Customer 435,58,East,2025-07-15
+C0436,46,7,45006.76,3,5,5,Loyal Customers,Customer 436,56,East,2025-08-21
+C0437,11,7,41314.67,5,5,4,Champions,Customer 437,50,West,2025-02-20
+C0438,24,5,32871.22,4,4,4,Champions,Customer 438,25,South,2025-08-09
+C0439,58,5,23762.03,2,4,2,At Risk,Customer 439,46,South,2025-07-31
+C0440,31,7,39716.44,4,5,4,Champions,Customer 440,39,West,2025-07-24
+C0441,162,2,8841.18,1,1,1,Others,Customer 441,44,North,2025-06-10
+C0442,15,3,20914.04,5,2,2,Potential Loyalists,Customer 442,45,East,2025-12-07
+C0443,47,4,19215.649999999998,3,3,2,Others,Customer 443,34,East,2025-03-20
+C0444,71,2,20750.98,2,1,2,Others,Customer 444,48,North,2025-02-16
+C0445,41,4,22161.16,3,3,2,Others,Customer 445,23,North,2025-08-10
+C0446,41,6,51861.94,3,4,5,Loyal Customers,Customer 446,24,East,2025-03-08
+C0447,73,6,56460.78,2,4,5,Loyal Customers,Customer 447,53,North,2025-10-28
+C0448,29,5,33813.55,4,4,4,Champions,Customer 448,53,East,2025-12-10
+C0449,14,6,48872.11,5,4,5,Champions,Customer 449,25,West,2025-07-01
+C0450,40,3,25783.42,3,2,3,Others,Customer 450,60,West,2025-01-27
+C0451,38,3,24692.95,3,2,3,Others,Customer 451,36,East,2025-06-30
+C0452,37,5,40536.83,3,4,4,Loyal Customers,Customer 452,24,South,2025-03-21
+C0453,6,6,40840.69,5,4,4,Champions,Customer 453,60,West,2025-04-25
+C0454,62,6,25098.68,2,4,3,Loyal Customers,Customer 454,24,East,2025-10-12
+C0455,61,7,70268.9,2,5,5,Loyal Customers,Customer 455,41,North,2025-05-23
+C0456,16,5,35730.659999999996,4,4,4,Champions,Customer 456,54,South,2025-08-08
+C0457,27,6,46966.98,4,4,5,Champions,Customer 457,53,North,2025-11-08
+C0458,49,10,43654.69,3,5,4,Loyal Customers,Customer 458,60,East,2025-01-15
+C0460,54,7,52783.63,3,5,5,Loyal Customers,Customer 460,37,East,2025-06-29
+C0461,47,5,36408.48,3,4,4,Loyal Customers,Customer 461,18,South,2025-03-15
+C0462,182,1,6408.12,1,1,1,Others,Customer 462,54,West,2025-02-05
+C0463,6,6,50326.2,5,4,5,Champions,Customer 463,27,North,2025-02-16
+C0464,11,4,44755.0,5,3,5,Potential Loyalists,Customer 464,51,South,2025-07-12
+C0465,139,2,25899.940000000002,1,1,3,Others,Customer 465,44,West,2025-06-24
+C0466,96,4,30098.71,1,3,3,At Risk,Customer 466,28,East,2025-06-09
+C0467,6,5,39221.68,5,4,4,Champions,Customer 467,38,North,2025-01-27
+C0468,76,3,12732.3,2,2,1,Others,Customer 468,27,South,2025-11-13
+C0469,11,2,6831.41,5,1,1,Others,Customer 469,21,North,2025-05-20
+C0470,18,2,20285.79,4,1,2,Others,Customer 470,46,West,2025-09-06
+C0471,3,5,33189.7,5,4,4,Champions,Customer 471,56,West,2025-08-01
+C0472,28,7,59740.12,4,5,5,Champions,Customer 472,35,South,2025-09-20
+C0473,15,4,31178.800000000003,5,3,3,Potential Loyalists,Customer 473,25,East,2025-08-09
+C0474,7,6,36684.880000000005,5,4,4,Champions,Customer 474,25,East,2025-12-14
+C0475,31,13,96149.76000000001,4,5,5,Champions,Customer 475,55,West,2025-09-27
+C0476,20,8,60664.600000000006,4,5,5,Champions,Customer 476,60,East,2025-01-24
+C0477,114,1,10523.52,1,1,1,Others,Customer 477,32,West,2025-11-03
+C0478,7,3,12751.010000000002,5,2,1,Potential Loyalists,Customer 478,21,North,2025-04-15
+C0479,46,4,29702.47,3,3,3,Others,Customer 479,37,South,2025-03-12
+C0480,38,3,34495.84,3,2,4,Others,Customer 480,34,East,2025-06-17
+C0481,14,2,20799.16,5,1,2,Others,Customer 481,25,North,2025-09-12
+C0482,188,2,28946.72,1,1,3,Others,Customer 482,45,South,2025-03-08
+C0483,86,3,19454.75,2,2,2,Others,Customer 483,42,South,2025-09-14
+C0484,73,2,6276.02,2,1,1,Others,Customer 484,53,East,2025-02-06
+C0485,50,8,45346.06,3,5,5,Loyal Customers,Customer 485,43,North,2025-08-12
+C0486,57,5,23207.84,2,4,2,At Risk,Customer 486,19,West,2025-02-09
+C0487,63,5,43268.27,2,4,4,Loyal Customers,Customer 487,38,West,2025-10-21
+C0488,20,5,29578.489999999998,4,4,3,Loyal Customers,Customer 488,43,West,2025-05-29
+C0489,66,2,20261.58,2,1,2,Others,Customer 489,25,West,2025-01-11
+C0490,96,5,36020.72,1,4,4,Loyal Customers,Customer 490,38,South,2025-11-13
+C0491,20,4,28432.87,4,3,3,Potential Loyalists,Customer 491,47,East,2025-02-15
+C0492,46,5,28149.93,3,4,3,Loyal Customers,Customer 492,45,North,2025-05-05
+C0493,46,6,40313.229999999996,3,4,4,Loyal Customers,Customer 493,45,West,2025-09-26
+C0494,57,4,24606.690000000002,2,3,3,At Risk,Customer 494,23,West,2025-06-08
+C0495,14,6,49922.91,5,4,5,Champions,Customer 495,39,South,2025-06-20
+C0496,116,2,24299.22,1,1,3,Others,Customer 496,28,North,2025-09-19
+C0497,16,5,36790.36,4,4,4,Champions,Customer 497,58,North,2025-09-29
+C0498,9,6,31153.329999999998,5,4,3,Loyal Customers,Customer 498,50,South,2025-06-28
+C0499,18,3,16203.09,4,2,2,Potential Loyalists,Customer 499,40,South,2025-05-01
+C0500,40,2,17503.38,3,1,2,Others,Customer 500,24,South,2025-05-12
+C0501,32,2,5104.4400000000005,4,1,1,Others,Customer 501,30,South,2025-11-05
+C0502,24,5,32100.48,4,4,4,Champions,Customer 502,27,North,2025-04-01
+C0503,81,6,44139.67,2,4,4,Loyal Customers,Customer 503,58,West,2025-08-26
+C0504,72,6,25031.17,2,4,3,Loyal Customers,Customer 504,54,West,2025-12-15
+C0505,34,6,31151.45,3,4,3,Loyal Customers,Customer 505,54,East,2025-11-18
+C0506,63,2,16416.72,2,1,2,Others,Customer 506,38,South,2025-08-14
+C0507,40,4,22851.25,3,3,2,Others,Customer 507,22,West,2025-08-15
+C0508,47,1,2552.49,3,1,1,Others,Customer 508,58,East,2025-05-21
+C0509,72,3,24024.78,2,2,2,Others,Customer 509,55,North,2025-06-30
+C0510,21,10,73801.03,4,5,5,Champions,Customer 510,50,North,2025-06-08
+C0511,80,3,32847.6,2,2,4,Others,Customer 511,47,West,2025-01-20
+C0513,54,7,59468.45,3,5,5,Loyal Customers,Customer 513,22,North,2025-11-11
+C0514,6,6,40079.13,5,4,4,Champions,Customer 514,56,West,2025-08-25
+C0515,23,3,12450.55,4,2,1,Potential Loyalists,Customer 515,55,North,2025-08-19
+C0516,38,7,57218.22,3,5,5,Loyal Customers,Customer 516,54,South,2025-06-14
+C0517,36,2,18416.71,3,1,2,Others,Customer 517,56,West,2025-09-14
+C0518,88,3,25001.52,2,2,3,Others,Customer 518,27,North,2025-08-19
+C0519,87,4,16476.04,2,3,2,At Risk,Customer 519,24,East,2026-01-01
+C0520,94,3,34624.83,2,2,4,Others,Customer 520,23,South,2025-01-21
+C0521,24,3,17959.72,4,2,2,Potential Loyalists,Customer 521,33,West,2025-08-13
+C0522,74,3,8535.55,2,2,1,Others,Customer 522,51,South,2025-07-06
+C0523,70,7,47349.35,2,5,5,Loyal Customers,Customer 523,41,East,2025-07-18
+C0524,50,4,37947.57,3,3,4,Others,Customer 524,44,East,2025-12-14
+C0525,63,5,53495.88,2,4,5,Loyal Customers,Customer 525,56,North,2025-11-20
+C0526,12,2,20519.78,5,1,2,Others,Customer 526,59,East,2025-02-03
+C0527,95,4,31030.68,1,3,3,At Risk,Customer 527,39,North,2025-10-13
+C0528,1,4,31312.81,5,3,3,Potential Loyalists,Customer 528,42,East,2025-05-10
+C0529,20,3,26097.33,4,2,3,Potential Loyalists,Customer 529,60,South,2025-06-20
+C0530,102,4,11468.98,1,3,1,At Risk,Customer 530,23,South,2025-06-29
+C0531,33,3,11272.32,3,2,1,Others,Customer 531,37,West,2025-03-08
+C0532,69,2,18429.3,2,1,2,Others,Customer 532,56,North,2025-06-08
+C0533,10,6,41339.53,5,4,4,Champions,Customer 533,53,West,2025-11-26
+C0534,5,4,28726.64,5,3,3,Potential Loyalists,Customer 534,39,South,2025-12-10
+C0535,30,3,44353.9,4,2,4,Potential Loyalists,Customer 535,51,North,2025-11-27
+C0536,148,4,36311.42,1,3,4,At Risk,Customer 536,60,West,2025-09-18
+C0537,13,5,31493.260000000002,5,4,3,Loyal Customers,Customer 537,41,North,2025-07-05
+C0538,42,5,58639.28,3,4,5,Loyal Customers,Customer 538,37,South,2025-04-20
+C0539,92,1,4280.51,2,1,1,Others,Customer 539,39,West,2025-04-09
+C0540,5,3,16184.52,5,2,1,Potential Loyalists,Customer 540,32,South,2025-03-21
+C0541,32,5,47392.09,4,4,5,Champions,Customer 541,22,East,2025-02-21
+C0542,159,3,13628.38,1,2,1,Others,Customer 542,50,North,2025-12-05
+C0543,103,3,29414.84,1,2,3,Others,Customer 543,39,South,2025-11-02
+C0544,22,5,20704.2,4,4,2,Potential Loyalists,Customer 544,42,South,2025-03-25
+C0545,71,3,19865.120000000003,2,2,2,Others,Customer 545,29,South,2025-08-13
+C0546,32,8,68277.44,4,5,5,Champions,Customer 546,20,West,2025-07-06
+C0547,109,2,12802.079999999998,1,1,1,Others,Customer 547,33,West,2025-11-09
+C0548,22,4,28834.39,4,3,3,Potential Loyalists,Customer 548,36,West,2025-04-30
+C0549,273,1,13015.68,1,1,1,Others,Customer 549,52,South,2025-06-08
+C0550,129,5,45117.01,1,4,5,Loyal Customers,Customer 550,48,South,2025-07-08
+C0552,61,4,38224.06,2,3,4,At Risk,Customer 552,36,West,2025-09-15
+C0553,166,3,19729.84,1,2,2,Others,Customer 553,51,West,2025-03-24
+C0554,16,4,18021.239999999998,4,3,2,Potential Loyalists,Customer 554,30,South,2025-05-09
+C0555,27,5,24683.21,4,4,3,Loyal Customers,Customer 555,21,West,2025-07-10
+C0556,23,3,23461.76,4,2,2,Potential Loyalists,Customer 556,53,North,2025-12-31
+C0557,78,4,23289.2,2,3,2,At Risk,Customer 557,51,North,2025-05-26
+C0558,36,5,27924.99,3,4,3,Loyal Customers,Customer 558,23,South,2025-05-20
+C0560,97,3,19803.78,1,2,2,Others,Customer 560,23,South,2025-08-19
+C0561,31,5,24852.46,4,4,3,Loyal Customers,Customer 561,40,North,2025-08-01
+C0562,30,8,49651.91,4,5,5,Champions,Customer 562,21,West,2025-09-15
+C0564,15,6,54165.96,5,4,5,Champions,Customer 564,23,East,2025-04-25
+C0565,32,3,20566.82,4,2,2,Potential Loyalists,Customer 565,19,East,2025-02-20
+C0566,35,3,21372.81,3,2,2,Others,Customer 566,59,East,2025-03-16
+C0567,15,6,48919.5,5,4,5,Champions,Customer 567,26,North,2025-05-27
+C0568,33,3,18397.67,3,2,2,Others,Customer 568,48,South,2025-12-28
+C0569,82,4,25434.18,2,3,3,At Risk,Customer 569,48,West,2025-11-12
+C0570,10,5,50188.54,5,4,5,Champions,Customer 570,18,North,2025-01-10
+C0571,93,6,37279.93,2,4,4,Loyal Customers,Customer 571,34,South,2025-03-18
+C0572,7,5,23340.48,5,4,2,Potential Loyalists,Customer 572,53,West,2025-02-26
+C0573,4,4,27595.96,5,3,3,Potential Loyalists,Customer 573,36,South,2025-06-04
+C0574,104,5,24923.67,1,4,3,Loyal Customers,Customer 574,25,North,2025-05-03
+C0575,22,3,21391.81,4,2,2,Potential Loyalists,Customer 575,44,West,2025-02-02
+C0576,39,3,20589.4,3,2,2,Others,Customer 576,25,West,2025-11-02
+C0577,114,3,29226.39,1,2,3,Others,Customer 577,52,North,2025-11-20
+C0578,5,5,51453.5,5,4,5,Champions,Customer 578,50,South,2025-03-15
+C0579,26,2,16070.27,4,1,1,Others,Customer 579,36,West,2025-01-01
+C0580,101,4,25235.879999999997,1,3,3,At Risk,Customer 580,57,East,2025-05-04
+C0581,30,6,61965.350000000006,4,4,5,Champions,Customer 581,54,West,2025-04-06
+C0582,85,4,11829.43,2,3,1,At Risk,Customer 582,60,North,2025-09-26
+C0583,21,7,47855.04,4,5,5,Champions,Customer 583,41,North,2025-09-27
+C0584,81,1,2766.4,2,1,1,Others,Customer 584,52,North,2025-07-19
+C0585,60,5,27325.51,2,4,3,Loyal Customers,Customer 585,48,North,2025-11-22
+C0586,5,7,38761.57,5,5,4,Champions,Customer 586,42,East,2025-05-10
+C0587,28,6,30451.22,4,4,3,Loyal Customers,Customer 587,19,East,2025-02-04
+C0588,48,3,19012.129999999997,3,2,2,Others,Customer 588,40,South,2025-12-03
+C0589,59,9,52685.9,2,5,5,Loyal Customers,Customer 589,58,North,2025-10-25
+C0590,143,2,17182.58,1,1,2,Others,Customer 590,39,South,2025-01-23
+C0591,29,6,32094.28,4,4,4,Champions,Customer 591,40,East,2025-11-26
+C0592,22,3,29463.600000000002,4,2,3,Potential Loyalists,Customer 592,29,West,2025-12-23
+C0593,9,5,26499.010000000002,5,4,3,Loyal Customers,Customer 593,48,South,2025-03-11
+C0594,46,4,37935.69,3,3,4,Others,Customer 594,22,West,2025-01-19
+C0595,58,4,25693.46,2,3,3,At Risk,Customer 595,36,South,2025-01-23
+C0596,84,2,7773.71,2,1,1,Others,Customer 596,30,North,2025-06-11
+C0597,32,2,6943.629999999999,4,1,1,Others,Customer 597,37,West,2025-10-06
+C0598,176,3,25628.56,1,2,3,Others,Customer 598,48,East,2025-01-19
+C0599,71,6,46778.79,2,4,5,Loyal Customers,Customer 599,59,South,2025-05-27
+C0600,36,5,31181.98,3,4,3,Loyal Customers,Customer 600,40,North,2025-12-02
+C0601,108,3,16025.47,1,2,1,Others,Customer 601,39,East,2025-03-05
+C0602,43,3,9183.31,3,2,1,Others,Customer 602,41,West,2025-07-24
+C0603,30,4,35247.11,4,3,4,Potential Loyalists,Customer 603,46,West,2025-06-23
+C0604,48,5,35480.5,3,4,4,Loyal Customers,Customer 604,29,West,2025-12-21
+C0605,81,8,46520.95,2,5,5,Loyal Customers,Customer 605,49,East,2025-09-23
+C0606,86,3,11785.76,2,2,1,Others,Customer 606,35,North,2025-08-06
+C0607,90,4,23935.05,2,3,2,At Risk,Customer 607,23,West,2025-11-05
+C0608,1,8,47575.58,5,5,5,Champions,Customer 608,29,East,2025-06-14
+C0609,131,1,3534.58,1,1,1,Others,Customer 609,24,North,2025-06-17
+C0610,48,5,53020.21,3,4,5,Loyal Customers,Customer 610,60,East,2025-06-06
+C0611,71,4,21811.68,2,3,2,At Risk,Customer 611,46,West,2025-03-27
+C0612,10,5,28761.510000000002,5,4,3,Loyal Customers,Customer 612,46,East,2025-08-17
+C0613,40,7,62866.04,3,5,5,Loyal Customers,Customer 613,20,East,2025-11-11
+C0614,2,4,31937.24,5,3,4,Potential Loyalists,Customer 614,45,East,2025-11-24
+C0615,4,5,36419.62,5,4,4,Champions,Customer 615,21,North,2025-12-10
+C0617,4,9,46824.85,5,5,5,Champions,Customer 617,50,South,2025-01-16
+C0618,11,5,31074.03,5,4,3,Loyal Customers,Customer 618,27,West,2025-01-18
+C0619,131,5,41295.61,1,4,4,Loyal Customers,Customer 619,26,North,2025-05-01
+C0620,91,4,53462.78,2,3,5,At Risk,Customer 620,59,East,2025-07-05
+C0621,60,4,41944.05,2,3,4,At Risk,Customer 621,42,North,2025-11-06
+C0622,54,3,11658.869999999999,3,2,1,Others,Customer 622,27,West,2025-07-09
+C0623,79,1,12477.81,2,1,1,Others,Customer 623,41,West,2025-02-09
+C0624,74,2,12719.650000000001,2,1,1,Others,Customer 624,54,South,2025-09-29
+C0625,252,1,2949.03,1,1,1,Others,Customer 625,41,West,2025-06-10
+C0626,34,4,14967.51,3,3,1,Others,Customer 626,59,East,2025-05-08
+C0627,15,6,34168.94,5,4,4,Champions,Customer 627,25,North,2025-04-06
+C0628,46,5,18802.769999999997,3,4,2,Others,Customer 628,49,West,2025-10-15
+C0629,80,2,13927.22,2,1,1,Others,Customer 629,25,East,2025-05-14
+C0630,19,7,37770.76,4,5,4,Champions,Customer 630,46,South,2025-11-10
+C0631,6,6,32802.520000000004,5,4,4,Champions,Customer 631,36,West,2025-04-13
+C0632,6,11,72758.36,5,5,5,Champions,Customer 632,25,South,2025-02-07
+C0633,52,8,61796.69,3,5,5,Loyal Customers,Customer 633,46,South,2026-01-01
+C0634,30,4,45441.8,4,3,5,Potential Loyalists,Customer 634,46,North,2025-12-16
+C0635,22,4,22172.5,4,3,2,Potential Loyalists,Customer 635,38,East,2025-12-30
+C0636,22,3,11432.01,4,2,1,Potential Loyalists,Customer 636,22,East,2025-06-03
+C0637,224,1,3534.58,1,1,1,Others,Customer 637,28,South,2025-07-05
+C0638,94,4,25015.84,2,3,3,At Risk,Customer 638,50,South,2025-03-04
+C0639,37,3,27011.120000000003,3,2,3,Others,Customer 639,30,South,2025-05-02
+C0640,132,3,20938.35,1,2,2,Others,Customer 640,49,North,2025-07-04
+C0641,79,2,5113.15,2,1,1,Others,Customer 641,53,East,2025-08-28
+C0642,24,6,55793.25,4,4,5,Champions,Customer 642,53,South,2025-11-10
+C0643,9,3,19295.1,5,2,2,Potential Loyalists,Customer 643,23,North,2025-06-08
+C0644,195,2,7424.84,1,1,1,Others,Customer 644,43,West,2025-09-27
+C0645,43,7,62546.41,3,5,5,Loyal Customers,Customer 645,44,West,2025-10-22
+C0646,50,9,87140.04,3,5,5,Loyal Customers,Customer 646,22,South,2025-06-12
+C0647,147,3,29228.61,1,2,3,Others,Customer 647,59,North,2025-08-19
+C0648,22,5,34848.03,4,4,4,Champions,Customer 648,47,East,2025-03-07
+C0649,22,5,28896.94,4,4,3,Loyal Customers,Customer 649,53,South,2025-03-08
+C0651,33,5,25317.28,3,4,3,Loyal Customers,Customer 651,51,South,2025-06-05
+C0652,48,6,52039.270000000004,3,4,5,Loyal Customers,Customer 652,28,South,2025-06-15
+C0653,72,6,39368.47,2,4,4,Loyal Customers,Customer 653,32,East,2025-09-23
+C0654,186,1,7069.16,1,1,1,Others,Customer 654,36,North,2025-05-09
+C0655,61,5,30828.82,2,4,3,Loyal Customers,Customer 655,30,East,2025-03-06
+C0656,6,6,43048.93,5,4,4,Champions,Customer 656,58,East,2025-11-11
+C0657,12,3,9916.76,5,2,1,Potential Loyalists,Customer 657,52,North,2025-09-15
+C0658,35,6,18285.25,3,4,2,Others,Customer 658,59,South,2025-10-31
+C0659,129,3,23470.1,1,2,2,Others,Customer 659,55,South,2025-03-29
+C0660,40,3,28191.78,3,2,3,Others,Customer 660,60,East,2025-10-16
+C0661,21,6,56477.65,4,4,5,Champions,Customer 661,20,North,2025-02-11
+C0662,18,8,28006.74,4,5,3,Loyal Customers,Customer 662,20,East,2025-11-30
+C0663,6,3,18728.42,5,2,2,Potential Loyalists,Customer 663,31,West,2025-11-13
+C0664,53,6,46231.58,3,4,5,Loyal Customers,Customer 664,58,North,2025-09-12
+C0665,44,5,46643.8,3,4,5,Loyal Customers,Customer 665,58,East,2025-11-25
+C0666,16,5,15157.720000000001,4,4,1,Potential Loyalists,Customer 666,37,West,2025-05-06
+C0667,154,1,1279.25,1,1,1,Others,Customer 667,43,East,2025-08-21
+C0668,102,7,40985.0,1,5,4,Loyal Customers,Customer 668,22,North,2025-03-22
+C0669,11,1,17354.24,5,1,2,Others,Customer 669,46,West,2025-09-05
+C0670,9,3,26984.47,5,2,3,Potential Loyalists,Customer 670,47,South,2025-06-24
+C0671,20,5,34431.51,4,4,4,Champions,Customer 671,56,South,2025-06-10
+C0672,87,2,16589.86,2,1,2,Others,Customer 672,38,East,2025-07-24
+C0673,49,3,9332.519999999999,3,2,1,Others,Customer 673,26,East,2025-09-21
+C0674,109,7,45390.69,1,5,5,Loyal Customers,Customer 674,53,North,2025-06-13
+C0675,35,6,51354.74,3,4,5,Loyal Customers,Customer 675,33,West,2025-03-04
+C0676,50,6,52426.2,3,4,5,Loyal Customers,Customer 676,35,West,2025-05-07
+C0677,106,9,52246.46,1,5,5,Loyal Customers,Customer 677,27,North,2025-01-26
+C0678,22,5,44176.09,4,4,4,Champions,Customer 678,36,West,2025-11-12
+C0679,89,5,23089.5,2,4,2,At Risk,Customer 679,44,South,2025-03-23
+C0680,61,4,40752.47,2,3,4,At Risk,Customer 680,38,East,2025-04-08
+C0681,52,2,28298.760000000002,3,1,3,Others,Customer 681,28,West,2025-09-21
+C0682,7,3,17754.24,5,2,2,Potential Loyalists,Customer 682,47,West,2025-06-07
+C0683,66,4,29160.54,2,3,3,At Risk,Customer 683,49,North,2025-02-16
+C0684,7,5,36075.62,5,4,4,Champions,Customer 684,43,West,2025-05-04
+C0685,81,4,24292.38,2,3,3,At Risk,Customer 685,31,East,2025-01-25
+C0686,91,4,10985.42,2,3,1,At Risk,Customer 686,21,East,2025-09-11
+C0687,44,5,24296.46,3,4,3,Loyal Customers,Customer 687,56,West,2025-05-27
+C0688,5,6,27759.29,5,4,3,Loyal Customers,Customer 688,52,North,2025-02-25
+C0689,20,6,26228.65,4,4,3,Loyal Customers,Customer 689,45,South,2025-05-16
+C0690,89,2,11004.5,2,1,1,Others,Customer 690,41,West,2025-07-07
+C0691,55,6,49235.979999999996,3,4,5,Loyal Customers,Customer 691,20,West,2025-01-27
+C0692,41,4,31912.11,3,3,4,Others,Customer 692,54,South,2025-07-05
+C0694,95,7,50853.31,1,5,5,Loyal Customers,Customer 694,42,West,2025-10-09
+C0695,1,3,23651.28,5,2,2,Potential Loyalists,Customer 695,35,North,2025-03-07
+C0696,10,3,32811.72,5,2,4,Potential Loyalists,Customer 696,24,West,2025-07-11
+C0697,18,3,21429.95,4,2,2,Potential Loyalists,Customer 697,39,East,2025-03-15
+C0698,101,3,22515.9,1,2,2,Others,Customer 698,30,West,2025-09-14
+C0699,25,5,34734.340000000004,4,4,4,Champions,Customer 699,20,North,2025-01-20
+C0700,18,6,42848.19,4,4,4,Champions,Customer 700,26,East,2025-08-31
+C0701,35,6,39813.69,3,4,4,Loyal Customers,Customer 701,51,West,2025-03-18
+C0702,76,5,27428.88,2,4,3,Loyal Customers,Customer 702,56,South,2025-06-17
+C0703,67,3,11355.38,2,2,1,Others,Customer 703,57,East,2025-03-25
+C0704,98,5,48687.11,1,4,5,Loyal Customers,Customer 704,43,East,2025-10-31
+C0705,79,8,63157.68,2,5,5,Loyal Customers,Customer 705,39,West,2025-12-29
+C0706,104,2,19085.48,1,1,2,Others,Customer 706,54,East,2025-09-01
+C0707,13,7,59058.17,5,5,5,Champions,Customer 707,19,East,2025-06-19
+C0708,169,3,9677.560000000001,1,2,1,Others,Customer 708,25,West,2025-10-26
+C0709,98,4,24452.61,1,3,3,At Risk,Customer 709,37,North,2025-11-02
+C0710,52,2,9762.89,3,1,1,Others,Customer 710,48,East,2025-12-02
+C0711,16,8,67129.56,4,5,5,Champions,Customer 711,55,South,2025-01-27
+C0712,148,1,8677.12,1,1,1,Others,Customer 712,55,West,2025-03-29
+C0713,2,8,65328.5,5,5,5,Champions,Customer 713,51,West,2025-03-17
+C0714,5,4,49539.15,5,3,5,Potential Loyalists,Customer 714,33,North,2025-10-21
+C0715,15,8,79237.95,5,5,5,Champions,Customer 715,25,South,2025-01-10
+C0716,14,5,31057.64,5,4,3,Loyal Customers,Customer 716,46,East,2025-08-03
+C0717,31,4,29315.75,4,3,3,Potential Loyalists,Customer 717,27,West,2025-12-20
+C0718,59,6,36848.32,2,4,4,Loyal Customers,Customer 718,31,West,2025-09-14
+C0719,74,2,14596.17,2,1,1,Others,Customer 719,57,West,2025-02-01
+C0720,38,6,40101.86,3,4,4,Loyal Customers,Customer 720,26,South,2025-10-15
+C0721,66,7,51585.87,2,5,5,Loyal Customers,Customer 721,38,West,2025-09-27
+C0722,26,5,35775.88,4,4,4,Champions,Customer 722,42,East,2025-03-30
+C0723,31,2,13548.150000000001,4,1,1,Others,Customer 723,47,East,2025-10-07
+C0724,3,6,40320.04,5,4,4,Champions,Customer 724,40,East,2025-11-09
+C0725,115,1,1602.03,1,1,1,Others,Customer 725,48,South,2025-05-07
+C0726,14,2,8333.66,5,1,1,Others,Customer 726,35,East,2025-04-26
+C0727,25,2,17101.39,4,1,2,Others,Customer 727,37,East,2025-12-27
+C0728,21,3,28518.14,4,2,3,Potential Loyalists,Customer 728,31,West,2025-06-12
+C0729,272,2,7845.04,1,1,1,Others,Customer 729,48,East,2025-10-14
+C0730,41,5,26364.37,3,4,3,Loyal Customers,Customer 730,35,East,2025-03-04
+C0731,7,5,36020.0,5,4,4,Champions,Customer 731,54,West,2025-07-22
+C0732,42,1,5898.06,3,1,1,Others,Customer 732,40,South,2025-05-29
+C0733,74,2,21324.9,2,1,2,Others,Customer 733,20,East,2026-01-01
+C0734,125,2,11205.0,1,1,1,Others,Customer 734,23,East,2025-08-15
+C0735,29,6,42640.93,4,4,4,Champions,Customer 735,59,East,2025-09-03
+C0736,153,3,27269.1,1,2,3,Others,Customer 736,31,South,2025-10-03
+C0737,8,4,26123.22,5,3,3,Potential Loyalists,Customer 737,35,East,2025-03-12
+C0738,202,3,7296.0,1,2,1,Others,Customer 738,24,South,2025-05-05
+C0739,6,5,27181.23,5,4,3,Loyal Customers,Customer 739,21,South,2025-11-23
+C0740,46,3,14712.57,3,2,1,Others,Customer 740,32,North,2025-02-21
+C0741,26,7,55185.740000000005,4,5,5,Champions,Customer 741,44,East,2025-08-30
+C0742,7,7,58681.93,5,5,5,Champions,Customer 742,24,South,2025-01-03
+C0743,53,3,18690.71,3,2,2,Others,Customer 743,53,South,2025-07-28
+C0744,24,3,18490.97,4,2,2,Potential Loyalists,Customer 744,59,West,2025-09-02
+C0745,129,2,9817.49,1,1,1,Others,Customer 745,59,South,2025-05-28
+C0746,75,3,18491.010000000002,2,2,2,Others,Customer 746,38,East,2025-11-27
+C0747,57,5,26607.739999999998,2,4,3,Loyal Customers,Customer 747,21,North,2025-11-30
+C0748,51,3,18227.08,3,2,2,Others,Customer 748,54,South,2025-10-01
+C0749,41,2,9735.810000000001,3,1,1,Others,Customer 749,20,South,2025-08-02
+C0750,70,5,42554.82,2,4,4,Loyal Customers,Customer 750,29,North,2025-07-23
+C0751,53,10,75057.33,3,5,5,Loyal Customers,Customer 751,49,South,2025-05-29
+C0752,264,1,2016.42,1,1,1,Others,Customer 752,20,North,2025-06-02
+C0753,141,3,36882.35,1,2,4,Others,Customer 753,54,North,2025-06-21
+C0754,5,6,52251.52,5,4,5,Champions,Customer 754,36,West,2025-11-25
+C0755,17,5,42183.57,4,4,4,Champions,Customer 755,52,West,2025-03-10
+C0756,239,1,4029.6,1,1,1,Others,Customer 756,50,West,2025-05-20
+C0757,14,8,53377.869999999995,5,5,5,Champions,Customer 757,30,North,2025-06-19
+C0758,7,5,36827.5,5,4,4,Champions,Customer 758,28,West,2025-11-28
+C0759,51,5,39342.26,3,4,4,Loyal Customers,Customer 759,34,South,2025-01-08
+C0760,1,8,59318.19,5,5,5,Champions,Customer 760,39,East,2025-10-18
+C0761,64,6,28844.7,2,4,3,Loyal Customers,Customer 761,30,South,2025-11-09
+C0762,56,3,13566.43,3,2,1,Others,Customer 762,58,West,2025-08-07
+C0763,58,4,34951.4,2,3,4,At Risk,Customer 763,50,East,2025-02-14
+C0764,142,2,21062.710000000003,1,1,2,Others,Customer 764,43,North,2025-04-05
+C0765,15,7,41448.01,5,5,4,Champions,Customer 765,26,West,2025-06-15
+C0766,135,4,31338.83,1,3,3,At Risk,Customer 766,33,North,2025-05-14
+C0767,82,5,37137.86,2,4,4,Loyal Customers,Customer 767,42,South,2025-08-17
+C0768,31,6,43959.62,4,4,4,Champions,Customer 768,35,East,2025-06-04
+C0769,26,6,51805.48,4,4,5,Champions,Customer 769,55,North,2025-05-14
+C0770,13,7,40788.87,5,5,4,Champions,Customer 770,59,East,2025-12-21
+C0771,94,6,22981.41,2,4,2,At Risk,Customer 771,33,North,2025-12-08
+C0772,155,2,17165.63,1,1,2,Others,Customer 772,25,West,2025-06-07
+C0773,149,2,18393.190000000002,1,1,2,Others,Customer 773,28,West,2025-12-18
+C0774,23,5,57470.82,4,4,5,Champions,Customer 774,50,East,2025-12-20
+C0775,19,7,45012.9,4,5,5,Champions,Customer 775,25,East,2025-07-08
+C0776,94,5,19854.54,2,4,2,At Risk,Customer 776,57,South,2025-04-23
+C0777,52,4,23163.29,3,3,2,Others,Customer 777,26,West,2025-03-20
+C0778,39,3,13389.73,3,2,1,Others,Customer 778,47,East,2025-08-01
+C0779,181,1,3923.03,1,1,1,Others,Customer 779,53,West,2025-10-03
+C0780,28,3,22243.29,4,2,2,Potential Loyalists,Customer 780,60,South,2025-05-07
+C0781,54,6,27939.2,3,4,3,Loyal Customers,Customer 781,56,North,2025-09-27
+C0782,16,11,73654.72,4,5,5,Champions,Customer 782,46,East,2025-02-09
+C0783,3,5,24092.67,5,4,2,Potential Loyalists,Customer 783,54,North,2025-02-01
+C0784,100,4,30027.99,1,3,3,At Risk,Customer 784,53,South,2025-10-21
+C0785,11,5,36850.64,5,4,4,Champions,Customer 785,52,South,2025-03-26
+C0786,53,4,27458.79,3,3,3,Others,Customer 786,38,West,2025-03-01
+C0787,146,3,21752.47,1,2,2,Others,Customer 787,31,West,2025-02-16
+C0788,31,2,4615.57,4,1,1,Others,Customer 788,50,West,2025-01-29
+C0789,135,2,4361.16,1,1,1,Others,Customer 789,47,South,2025-09-20
+C0790,7,2,13546.26,5,1,1,Others,Customer 790,44,West,2025-10-16
+C0791,132,2,16587.9,1,1,2,Others,Customer 791,21,West,2025-12-11
+C0792,225,1,8741.73,1,1,1,Others,Customer 792,37,North,2025-07-22
+C0793,57,3,11520.880000000001,2,2,1,Others,Customer 793,34,North,2025-04-22
+C0794,53,3,29614.59,3,2,3,Others,Customer 794,55,North,2025-01-24
+C0795,14,5,37983.65,5,4,4,Champions,Customer 795,45,East,2025-12-25
+C0796,78,5,29927.47,2,4,3,Loyal Customers,Customer 796,22,North,2025-02-05
+C0797,31,5,12490.02,4,4,1,Potential Loyalists,Customer 797,48,North,2025-05-27
+C0798,74,2,12199.84,2,1,1,Others,Customer 798,44,South,2025-03-11
+C0799,73,7,60490.02,2,5,5,Loyal Customers,Customer 799,59,West,2025-07-11
+C0800,7,8,51624.979999999996,5,5,5,Champions,Customer 800,42,West,2025-07-13
+C0801,14,7,57664.32,5,5,5,Champions,Customer 801,42,North,2025-12-16
+C0802,158,2,7316.5,1,1,1,Others,Customer 802,60,South,2025-12-01
+C0803,12,4,22482.16,5,3,2,Potential Loyalists,Customer 803,40,North,2025-04-02
+C0804,117,4,26729.91,1,3,3,At Risk,Customer 804,52,West,2025-09-28
+C0805,34,2,20018.28,3,1,2,Others,Customer 805,26,South,2025-01-02
+C0806,126,5,22991.07,1,4,2,At Risk,Customer 806,19,East,2025-08-26
+C0807,100,6,49219.65,1,4,5,Loyal Customers,Customer 807,52,West,2025-09-30
+C0808,158,4,27120.35,1,3,3,At Risk,Customer 808,42,South,2025-05-07
+C0809,179,3,35960.94,1,2,4,Others,Customer 809,47,East,2025-03-21
+C0810,8,2,7444.530000000001,5,1,1,Others,Customer 810,35,South,2025-02-27
+C0811,150,6,47408.47,1,4,5,Loyal Customers,Customer 811,20,West,2025-11-11
+C0812,20,10,57014.770000000004,4,5,5,Champions,Customer 812,19,South,2025-04-16
+C0813,114,3,17231.149999999998,1,2,2,Others,Customer 813,22,North,2025-11-01
+C0814,53,6,47941.76,3,4,5,Loyal Customers,Customer 814,20,West,2025-11-03
+C0815,22,6,60014.82,4,4,5,Champions,Customer 815,21,South,2025-01-23
+C0816,36,5,38851.09,3,4,4,Loyal Customers,Customer 816,43,West,2025-04-30
+C0817,16,6,21201.15,4,4,2,Potential Loyalists,Customer 817,52,South,2025-01-29
+C0818,9,4,16225.94,5,3,2,Potential Loyalists,Customer 818,26,East,2025-04-30
+C0819,51,7,34040.16,3,5,4,Loyal Customers,Customer 819,54,East,2025-10-23
+C0820,83,3,33723.64,2,2,4,Others,Customer 820,56,East,2025-05-02
+C0821,115,4,28205.65,1,3,3,At Risk,Customer 821,37,South,2025-12-05
+C0822,16,4,31437.8,4,3,3,Potential Loyalists,Customer 822,51,South,2025-07-31
+C0823,74,3,11964.0,2,2,1,Others,Customer 823,37,East,2025-02-01
+C0824,47,7,87866.5,3,5,5,Loyal Customers,Customer 824,53,South,2025-11-17
+C0825,27,5,49255.12,4,4,5,Champions,Customer 825,45,West,2025-01-25
+C0826,56,5,38066.1,3,4,4,Loyal Customers,Customer 826,40,West,2025-09-26
+C0827,56,6,45401.03,3,4,5,Loyal Customers,Customer 827,38,West,2025-07-29
+C0828,53,5,26288.4,3,4,3,Loyal Customers,Customer 828,27,East,2025-07-12
+C0829,35,3,17714.2,3,2,2,Others,Customer 829,29,West,2025-05-04
+C0830,61,5,27101.89,2,4,3,Loyal Customers,Customer 830,32,East,2025-12-29
+C0831,68,5,40262.13,2,4,4,Loyal Customers,Customer 831,27,West,2025-01-30
+C0832,34,4,29640.03,3,3,3,Others,Customer 832,53,West,2025-08-02
+C0833,44,9,45090.840000000004,3,5,5,Loyal Customers,Customer 833,53,South,2025-07-18
+C0834,92,2,7845.46,2,1,1,Others,Customer 834,33,East,2025-04-15
+C0835,59,7,44649.92,2,5,5,Loyal Customers,Customer 835,39,North,2025-08-19
+C0836,46,6,29150.300000000003,3,4,3,Loyal Customers,Customer 836,41,North,2025-10-02
+C0837,166,3,14362.34,1,2,1,Others,Customer 837,30,North,2025-05-18
+C0838,30,5,44978.880000000005,4,4,5,Champions,Customer 838,42,North,2025-02-07
+C0839,59,2,29648.96,2,1,3,Others,Customer 839,30,South,2025-09-03
+C0840,49,3,35614.84,3,2,4,Others,Customer 840,31,East,2025-06-05
+C0841,40,3,17329.05,3,2,2,Others,Customer 841,18,South,2025-04-08
+C0842,114,4,27825.46,1,3,3,At Risk,Customer 842,25,West,2025-05-05
+C0843,84,3,20103.6,2,2,2,Others,Customer 843,56,South,2025-07-23
+C0844,31,6,27867.92,4,4,3,Loyal Customers,Customer 844,33,East,2025-05-25
+C0845,73,3,8485.9,2,2,1,Others,Customer 845,42,West,2025-10-01
+C0846,138,1,2000.83,1,1,1,Others,Customer 846,59,East,2025-06-07
+C0847,2,6,50917.69,5,4,5,Champions,Customer 847,34,East,2025-09-20
+C0848,170,2,9484.65,1,1,1,Others,Customer 848,49,West,2025-02-20
+C0849,30,6,35034.6,4,4,4,Champions,Customer 849,48,East,2025-04-15
+C0850,17,7,65507.229999999996,4,5,5,Champions,Customer 850,41,East,2025-07-31
+C0851,59,7,66632.74,2,5,5,Loyal Customers,Customer 851,20,South,2025-03-16
+C0852,81,5,21710.43,2,4,2,At Risk,Customer 852,19,East,2025-10-11
+C0854,110,1,5117.0,1,1,1,Others,Customer 854,27,South,2025-06-18
+C0855,35,5,27413.48,3,4,3,Loyal Customers,Customer 855,32,West,2025-10-19
+C0856,84,3,23300.39,2,2,2,Others,Customer 856,33,West,2025-10-09
+C0857,38,4,15842.13,3,3,1,Others,Customer 857,59,East,2025-05-12
+C0858,5,3,14953.65,5,2,1,Potential Loyalists,Customer 858,49,West,2025-08-24
+C0859,71,3,22499.58,2,2,2,Others,Customer 859,28,East,2025-03-28
+C0860,58,6,36697.08,2,4,4,Loyal Customers,Customer 860,26,West,2025-04-05
+C0861,18,5,46874.92,4,4,5,Champions,Customer 861,52,North,2025-09-26
+C0862,78,3,10159.460000000001,2,2,1,Others,Customer 862,20,North,2025-12-09
+C0863,106,4,37183.990000000005,1,3,4,At Risk,Customer 863,21,North,2025-07-31
+C0864,147,2,5316.21,1,1,1,Others,Customer 864,26,South,2025-02-04
+C0865,41,5,34576.56,3,4,4,Loyal Customers,Customer 865,27,North,2025-04-22
+C0866,181,2,11306.19,1,1,1,Others,Customer 866,50,West,2025-07-11
+C0867,17,10,55921.79,4,5,5,Champions,Customer 867,21,West,2025-12-04
+C0868,64,4,26479.04,2,3,3,At Risk,Customer 868,49,North,2025-01-04
+C0869,78,2,16252.98,2,1,2,Others,Customer 869,52,West,2025-01-07
+C0870,9,3,19085.66,5,2,2,Potential Loyalists,Customer 870,19,East,2025-10-02
+C0871,160,1,12988.92,1,1,1,Others,Customer 871,36,North,2025-09-15
+C0872,5,3,23426.77,5,2,2,Potential Loyalists,Customer 872,45,South,2025-02-24
+C0873,24,4,33909.69,4,3,4,Potential Loyalists,Customer 873,24,South,2025-05-04
+C0874,56,3,18673.489999999998,3,2,2,Others,Customer 874,30,East,2025-07-01
+C0875,14,2,11383.52,5,1,1,Others,Customer 875,35,West,2025-02-10
+C0876,31,3,18100.9,4,2,2,Potential Loyalists,Customer 876,41,West,2025-08-24
+C0877,6,4,50634.51,5,3,5,Potential Loyalists,Customer 877,54,South,2025-12-23
+C0878,23,3,20330.47,4,2,2,Potential Loyalists,Customer 878,32,East,2025-12-17
+C0879,5,7,53185.94,5,5,5,Champions,Customer 879,23,North,2025-02-17
+C0880,131,2,11877.1,1,1,1,Others,Customer 880,43,West,2025-07-13
+C0881,56,8,43254.29,3,5,4,Loyal Customers,Customer 881,53,West,2025-01-29
+C0882,17,3,17709.850000000002,4,2,2,Potential Loyalists,Customer 882,58,North,2025-12-26
+C0883,27,7,26508.379999999997,4,5,3,Loyal Customers,Customer 883,28,North,2025-09-13
+C0885,29,5,36853.8,4,4,4,Champions,Customer 885,24,North,2025-04-28
+C0886,3,4,27156.010000000002,5,3,3,Potential Loyalists,Customer 886,31,West,2025-05-19
+C0887,203,3,19842.16,1,2,2,Others,Customer 887,20,North,2025-12-17
+C0888,38,4,40792.6,3,3,4,Others,Customer 888,35,North,2025-04-02
+C0889,12,6,54331.57,5,4,5,Champions,Customer 889,38,North,2025-04-17
+C0890,31,6,41589.07,4,4,4,Champions,Customer 890,55,South,2025-12-31
+C0891,204,3,6980.200000000001,1,2,1,Others,Customer 891,43,North,2025-06-03
+C0892,78,4,26741.09,2,3,3,At Risk,Customer 892,28,South,2025-10-18
+C0894,12,2,11855.130000000001,5,1,1,Others,Customer 894,26,North,2025-09-14
+C0895,107,2,9221.939999999999,1,1,1,Others,Customer 895,40,North,2025-02-20
+C0896,7,5,41814.26,5,4,4,Champions,Customer 896,45,South,2025-02-08
+C0897,25,3,27150.04,4,2,3,Potential Loyalists,Customer 897,39,West,2025-06-17
+C0898,1,5,34253.44,5,4,4,Champions,Customer 898,19,East,2025-08-19
+C0899,43,5,25777.68,3,4,3,Loyal Customers,Customer 899,49,South,2025-07-02
+C0900,204,2,19939.29,1,1,2,Others,Customer 900,53,West,2025-08-10
+C0901,38,3,28569.94,3,2,3,Others,Customer 901,29,West,2025-02-13
+C0902,17,7,57935.89,4,5,5,Champions,Customer 902,57,East,2025-05-07
+C0903,89,4,26270.23,2,3,3,At Risk,Customer 903,22,North,2025-05-18
+C0904,28,9,66396.12,4,5,5,Champions,Customer 904,27,West,2025-12-31
+C0905,67,6,61178.67,2,4,5,Loyal Customers,Customer 905,58,South,2025-07-19
+C0906,127,2,24239.2,1,1,3,Others,Customer 906,38,East,2025-02-24
+C0907,30,3,6424.25,4,2,1,Potential Loyalists,Customer 907,23,North,2025-06-07
+C0908,63,4,20420.91,2,3,2,At Risk,Customer 908,46,East,2025-05-19
+C0909,55,3,17822.02,3,2,2,Others,Customer 909,24,South,2025-02-14
+C0910,30,4,26957.59,4,3,3,Potential Loyalists,Customer 910,29,West,2025-08-18
+C0911,143,5,40596.18,1,4,4,Loyal Customers,Customer 911,53,West,2025-02-22
+C0912,179,1,4829.68,1,1,1,Others,Customer 912,19,North,2025-07-01
+C0913,24,6,51631.53,4,4,5,Champions,Customer 913,53,North,2025-11-02
+C0914,24,4,15820.66,4,3,1,Potential Loyalists,Customer 914,56,East,2025-07-17
+C0915,33,6,31889.47,3,4,4,Loyal Customers,Customer 915,18,East,2025-07-31
+C0916,56,6,43294.16,3,4,4,Loyal Customers,Customer 916,42,North,2025-10-14
+C0917,72,4,23805.6,2,3,2,At Risk,Customer 917,33,South,2025-12-17
+C0918,90,1,11796.12,2,1,1,Others,Customer 918,42,South,2025-03-13
+C0919,74,6,65472.950000000004,2,4,5,Loyal Customers,Customer 919,35,East,2025-05-18
+C0920,85,5,28160.1,2,4,3,Loyal Customers,Customer 920,49,South,2025-02-02
+C0921,221,2,12564.19,1,1,1,Others,Customer 921,28,West,2025-05-22
+C0922,28,8,51365.31,4,5,5,Champions,Customer 922,44,East,2025-09-05
+C0923,25,4,25964.010000000002,4,3,3,Potential Loyalists,Customer 923,22,East,2025-05-09
+C0924,51,6,42842.1,3,4,4,Loyal Customers,Customer 924,33,West,2025-11-01
+C0925,30,3,20224.43,4,2,2,Potential Loyalists,Customer 925,57,South,2025-08-23
+C0926,67,2,18727.3,2,1,2,Others,Customer 926,24,South,2025-06-05
+C0927,90,1,2558.5,2,1,1,Others,Customer 927,18,West,2025-06-20
+C0928,38,3,27957.73,3,2,3,Others,Customer 928,57,West,2025-06-18
+C0929,77,3,31276.18,2,2,3,Others,Customer 929,46,East,2025-08-09
+C0930,9,4,25993.95,5,3,3,Potential Loyalists,Customer 930,59,South,2025-06-03
+C0931,172,3,8844.720000000001,1,2,1,Others,Customer 931,38,South,2025-09-03
+C0932,13,5,31042.66,5,4,3,Loyal Customers,Customer 932,38,South,2025-07-23
+C0933,32,2,12872.6,4,1,1,Others,Customer 933,38,East,2025-12-22
+C0934,7,5,31519.600000000002,5,4,3,Loyal Customers,Customer 934,58,West,2025-10-22
+C0935,3,5,42761.2,5,4,4,Champions,Customer 935,33,East,2025-07-12
+C0936,13,2,17472.06,5,1,2,Others,Customer 936,35,West,2025-07-06
+C0937,13,3,24164.620000000003,5,2,2,Potential Loyalists,Customer 937,25,South,2025-10-31
+C0938,21,5,24634.989999999998,4,4,3,Loyal Customers,Customer 938,52,South,2025-12-16
+C0939,268,1,4104.94,1,1,1,Others,Customer 939,53,North,2025-08-25
+C0940,6,3,27560.72,5,2,3,Potential Loyalists,Customer 940,31,West,2025-05-30
+C0941,1,6,47666.880000000005,5,4,5,Champions,Customer 941,22,West,2025-12-11
+C0942,13,3,22270.21,5,2,2,Potential Loyalists,Customer 942,49,South,2025-11-21
+C0943,26,3,11928.09,4,2,1,Potential Loyalists,Customer 943,37,South,2025-05-10
+C0944,76,2,10754.99,2,1,1,Others,Customer 944,60,South,2025-08-05
+C0945,9,4,22327.17,5,3,2,Potential Loyalists,Customer 945,42,North,2025-08-18
+C0946,5,6,30880.7,5,4,3,Loyal Customers,Customer 946,56,West,2025-10-26
+C0948,57,3,19182.050000000003,2,2,2,Others,Customer 948,20,East,2025-12-26
+C0949,50,12,66614.38,3,5,5,Loyal Customers,Customer 949,52,North,2025-02-25
+C0950,48,2,7415.02,3,1,1,Others,Customer 950,33,East,2025-03-27
+C0951,133,2,9046.27,1,1,1,Others,Customer 951,59,North,2025-10-16
+C0952,14,2,10236.62,5,1,1,Others,Customer 952,59,West,2025-06-19
+C0953,70,3,33473.509999999995,2,2,4,Others,Customer 953,45,North,2025-01-06
+C0954,9,7,58266.45,5,5,5,Champions,Customer 954,24,East,2025-04-24
+C0955,34,5,34791.29,3,4,4,Loyal Customers,Customer 955,50,South,2025-08-17
+C0956,2,7,56278.56,5,5,5,Champions,Customer 956,41,West,2025-08-26
+C0957,20,3,16040.220000000001,4,2,1,Potential Loyalists,Customer 957,55,South,2025-06-26
+C0958,103,2,17618.16,1,1,2,Others,Customer 958,19,West,2025-02-23
+C0959,41,5,28182.940000000002,3,4,3,Loyal Customers,Customer 959,36,West,2025-02-13
+C0960,88,6,64501.16,2,4,5,Loyal Customers,Customer 960,25,South,2025-06-28
+C0961,9,5,32992.58,5,4,4,Champions,Customer 961,37,East,2025-08-22
+C0962,5,5,48492.43,5,4,5,Champions,Customer 962,31,West,2025-06-28
+C0963,35,7,78089.84,3,5,5,Loyal Customers,Customer 963,48,North,2025-08-13
+C0964,37,8,57857.03,3,5,5,Loyal Customers,Customer 964,46,East,2025-02-04
+C0965,124,2,6665.27,1,1,1,Others,Customer 965,37,North,2025-12-30
+C0966,102,3,17211.75,1,2,2,Others,Customer 966,25,North,2025-06-25
+C0967,148,2,8291.380000000001,1,1,1,Others,Customer 967,59,North,2025-12-13
+C0968,15,9,74757.13,5,5,5,Champions,Customer 968,28,South,2025-09-22
+C0969,113,5,64600.44,1,4,5,Loyal Customers,Customer 969,29,South,2025-06-19
+C0970,15,7,40724.8,5,5,4,Champions,Customer 970,53,West,2025-08-25
+C0971,55,4,25341.88,3,3,3,Others,Customer 971,32,West,2025-11-19
+C0972,13,6,45110.52,5,4,5,Champions,Customer 972,29,South,2025-11-24
+C0973,63,5,23035.41,2,4,2,At Risk,Customer 973,60,West,2025-07-22
+C0974,57,2,22968.86,2,1,2,Others,Customer 974,19,South,2025-08-19
+C0975,14,4,32266.410000000003,5,3,4,Potential Loyalists,Customer 975,55,West,2025-07-19
+C0976,25,5,38072.5,4,4,4,Champions,Customer 976,18,South,2025-04-16
+C0978,27,4,23952.73,4,3,2,Potential Loyalists,Customer 978,24,South,2025-07-07
+C0979,55,4,29074.05,3,3,3,Others,Customer 979,38,South,2025-08-23
+C0980,119,4,33263.27,1,3,4,At Risk,Customer 980,25,East,2025-12-10
+C0981,3,3,22850.29,5,2,2,Potential Loyalists,Customer 981,49,East,2025-11-02
+C0982,17,3,10729.04,4,2,1,Potential Loyalists,Customer 982,42,West,2025-10-28
+C0983,28,6,27654.22,4,4,3,Loyal Customers,Customer 983,25,East,2025-06-30
+C0984,15,6,32330.499999999996,5,4,4,Champions,Customer 984,47,South,2025-12-11
+C0985,208,4,15444.37,1,3,1,At Risk,Customer 985,37,North,2025-12-11
+C0986,48,4,26010.69,3,3,3,Others,Customer 986,26,East,2025-03-02
+C0987,51,3,20750.22,3,2,2,Others,Customer 987,33,East,2025-03-01
+C0988,5,6,31399.98,5,4,3,Loyal Customers,Customer 988,29,East,2025-12-22
+C0989,26,2,6743.77,4,1,1,Others,Customer 989,27,West,2025-08-03
+C0990,26,4,10600.33,4,3,1,Potential Loyalists,Customer 990,56,South,2025-10-22
+C0991,111,4,28647.0,1,3,3,At Risk,Customer 991,42,West,2025-04-06
+C0992,75,3,32464.62,2,2,4,Others,Customer 992,49,South,2025-10-12
+C0993,80,2,15994.2,2,1,1,Others,Customer 993,28,West,2025-05-28
+C0994,65,6,23316.09,2,4,2,At Risk,Customer 994,26,South,2025-06-11
+C0995,145,1,10603.74,1,1,1,Others,Customer 995,46,North,2025-07-03
+C0996,24,8,57825.67,4,5,5,Champions,Customer 996,18,West,2025-03-11
+C0997,17,4,23651.81,4,3,2,Potential Loyalists,Customer 997,30,West,2025-10-15
+C0998,47,7,48418.44,3,5,5,Loyal Customers,Customer 998,50,West,2025-07-29
+C0999,87,4,15667.060000000001,2,3,1,At Risk,Customer 999,49,West,2025-12-30
+C1000,109,6,35277.04,1,4,4,Loyal Customers,Customer 1000,46,West,2025-03-27

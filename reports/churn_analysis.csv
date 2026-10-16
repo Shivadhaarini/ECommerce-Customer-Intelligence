@@ -1,0 +1,1001 @@
+customer_id,name,region,last_delivered_order,days_since_last_order,churn_status
+C0001,Customer 1,North,2026-08-11,51.0,Active
+C0002,Customer 2,South,2026-09-21,10.0,Active
+C0003,Customer 3,North,2026-07-06,87.0,At Risk
+C0004,Customer 4,North,2026-07-02,91.0,At Risk
+C0005,Customer 5,North,2026-05-08,146.0,At Risk
+C0006,Customer 6,South,2026-09-25,6.0,Active
+C0007,Customer 7,North,2026-08-31,31.0,Active
+C0008,Customer 8,West,2026-08-26,36.0,Active
+C0009,Customer 9,East,2026-09-28,3.0,Active
+C0010,Customer 10,West,2026-08-09,53.0,Active
+C0011,Customer 11,South,2026-08-18,44.0,Active
+C0012,Customer 12,North,2026-08-05,57.0,Active
+C0013,Customer 13,North,2026-07-20,73.0,At Risk
+C0014,Customer 14,East,2026-09-23,8.0,Active
+C0015,Customer 15,North,2026-04-09,175.0,At Risk
+C0016,Customer 16,East,2026-05-08,146.0,At Risk
+C0017,Customer 17,East,2026-08-31,31.0,Active
+C0018,Customer 18,North,2026-09-27,4.0,Active
+C0019,Customer 19,South,2026-09-18,13.0,Active
+C0020,Customer 20,South,,,No Delivered Orders
+C0021,Customer 21,East,2026-07-05,88.0,At Risk
+C0022,Customer 22,East,2026-09-17,14.0,Active
+C0023,Customer 23,East,2026-09-24,7.0,Active
+C0024,Customer 24,East,2026-04-04,180.0,At Risk
+C0025,Customer 25,North,2026-08-07,55.0,Active
+C0026,Customer 26,South,2026-09-14,17.0,Active
+C0027,Customer 27,South,2026-08-01,61.0,At Risk
+C0028,Customer 28,East,2026-06-23,100.0,At Risk
+C0029,Customer 29,South,2026-08-04,58.0,Active
+C0030,Customer 30,North,2026-08-19,43.0,Active
+C0031,Customer 31,East,2026-09-11,20.0,Active
+C0032,Customer 32,North,2026-07-12,81.0,At Risk
+C0033,Customer 33,East,2026-06-17,106.0,At Risk
+C0034,Customer 34,West,2026-09-20,11.0,Active
+C0035,Customer 35,West,2026-08-12,50.0,Active
+C0036,Customer 36,South,2026-05-06,148.0,At Risk
+C0037,Customer 37,East,,,No Delivered Orders
+C0038,Customer 38,West,2026-07-18,75.0,At Risk
+C0039,Customer 39,South,2026-07-24,69.0,At Risk
+C0040,Customer 40,North,2026-09-17,14.0,Active
+C0041,Customer 41,South,2026-09-12,19.0,Active
+C0042,Customer 42,West,2026-09-07,24.0,Active
+C0043,Customer 43,West,2026-09-15,16.0,Active
+C0044,Customer 44,West,2026-09-24,7.0,Active
+C0045,Customer 45,North,2026-08-28,34.0,Active
+C0046,Customer 46,East,2026-08-29,33.0,Active
+C0047,Customer 47,North,2026-09-10,21.0,Active
+C0048,Customer 48,South,2026-09-24,7.0,Active
+C0049,Customer 49,East,2026-07-13,80.0,At Risk
+C0050,Customer 50,North,,,No Delivered Orders
+C0051,Customer 51,South,2026-08-24,38.0,Active
+C0052,Customer 52,South,2026-09-06,25.0,Active
+C0053,Customer 53,North,2026-09-08,23.0,Active
+C0054,Customer 54,West,2026-09-08,23.0,Active
+C0055,Customer 55,East,2026-07-03,90.0,At Risk
+C0056,Customer 56,North,2026-08-21,41.0,Active
+C0057,Customer 57,North,2026-06-28,95.0,At Risk
+C0058,Customer 58,North,2026-07-11,82.0,At Risk
+C0059,Customer 59,South,2026-07-26,67.0,At Risk
+C0060,Customer 60,South,2026-08-18,44.0,Active
+C0061,Customer 61,West,2026-06-20,103.0,At Risk
+C0062,Customer 62,South,2026-09-17,14.0,Active
+C0063,Customer 63,West,2026-09-02,29.0,Active
+C0064,Customer 64,East,2026-08-02,60.0,At Risk
+C0065,Customer 65,West,2026-08-31,31.0,Active
+C0066,Customer 66,South,2026-08-25,37.0,Active
+C0067,Customer 67,North,2026-09-23,8.0,Active
+C0068,Customer 68,South,2026-09-28,3.0,Active
+C0069,Customer 69,North,2026-06-26,97.0,At Risk
+C0070,Customer 70,North,2026-08-02,60.0,At Risk
+C0071,Customer 71,North,2026-04-13,171.0,At Risk
+C0072,Customer 72,South,2026-07-04,89.0,At Risk
+C0073,Customer 73,West,2026-06-20,103.0,At Risk
+C0074,Customer 74,South,2026-08-29,33.0,Active
+C0075,Customer 75,West,2026-08-25,37.0,Active
+C0076,Customer 76,West,2026-07-21,72.0,At Risk
+C0077,Customer 77,North,2026-09-09,22.0,Active
+C0078,Customer 78,East,2026-04-10,174.0,At Risk
+C0079,Customer 79,West,2026-09-10,21.0,Active
+C0080,Customer 80,North,2026-09-07,24.0,Active
+C0081,Customer 81,East,2026-05-29,125.0,At Risk
+C0082,Customer 82,South,2026-09-30,1.0,Active
+C0083,Customer 83,West,2026-03-17,198.0,At Risk
+C0084,Customer 84,South,2026-09-15,16.0,Active
+C0085,Customer 85,South,2026-09-13,18.0,Active
+C0086,Customer 86,North,2026-09-26,5.0,Active
+C0087,Customer 87,North,2026-06-21,102.0,At Risk
+C0088,Customer 88,South,2026-04-07,177.0,At Risk
+C0089,Customer 89,West,2026-09-05,26.0,Active
+C0090,Customer 90,North,2026-08-22,40.0,Active
+C0091,Customer 91,North,2026-09-22,9.0,Active
+C0092,Customer 92,West,2026-06-20,103.0,At Risk
+C0093,Customer 93,West,2026-09-03,28.0,Active
+C0094,Customer 94,East,2026-08-10,52.0,Active
+C0095,Customer 95,North,2026-08-18,44.0,Active
+C0096,Customer 96,North,2026-08-28,34.0,Active
+C0097,Customer 97,South,2026-09-22,9.0,Active
+C0098,Customer 98,North,2026-07-05,88.0,At Risk
+C0099,Customer 99,North,2026-09-24,7.0,Active
+C0100,Customer 100,West,2026-07-28,65.0,At Risk
+C0101,Customer 101,South,2026-08-03,59.0,Active
+C0102,Customer 102,North,2026-09-16,15.0,Active
+C0103,Customer 103,West,2026-05-04,150.0,At Risk
+C0104,Customer 104,East,2026-09-24,7.0,Active
+C0105,Customer 105,East,2026-01-28,246.0,At Risk
+C0106,Customer 106,West,2026-06-09,114.0,At Risk
+C0107,Customer 107,East,2026-05-15,139.0,At Risk
+C0108,Customer 108,North,2026-06-27,96.0,At Risk
+C0109,Customer 109,North,2026-09-01,30.0,Active
+C0110,Customer 110,South,2026-08-07,55.0,Active
+C0111,Customer 111,South,2026-04-20,164.0,At Risk
+C0112,Customer 112,South,2026-08-09,53.0,Active
+C0113,Customer 113,South,2026-07-31,62.0,At Risk
+C0114,Customer 114,East,2026-07-07,86.0,At Risk
+C0115,Customer 115,North,2026-08-12,50.0,Active
+C0116,Customer 116,East,2026-09-13,18.0,Active
+C0117,Customer 117,South,2026-09-02,29.0,Active
+C0118,Customer 118,North,2026-09-21,10.0,Active
+C0119,Customer 119,East,2026-09-08,23.0,Active
+C0120,Customer 120,South,2026-06-15,108.0,At Risk
+C0121,Customer 121,East,2026-09-22,9.0,Active
+C0122,Customer 122,East,2026-09-02,29.0,Active
+C0123,Customer 123,West,2026-09-10,21.0,Active
+C0124,Customer 124,North,2026-07-19,74.0,At Risk
+C0125,Customer 125,East,2026-09-19,12.0,Active
+C0126,Customer 126,West,2026-08-30,32.0,Active
+C0127,Customer 127,North,2026-09-27,4.0,Active
+C0128,Customer 128,North,2026-08-21,41.0,Active
+C0129,Customer 129,South,2026-05-16,138.0,At Risk
+C0130,Customer 130,North,2026-06-15,108.0,At Risk
+C0131,Customer 131,North,2026-08-07,55.0,Active
+C0132,Customer 132,South,2026-09-17,14.0,Active
+C0133,Customer 133,East,2026-09-29,2.0,Active
+C0134,Customer 134,South,2026-08-06,56.0,Active
+C0135,Customer 135,South,2026-08-13,49.0,Active
+C0136,Customer 136,South,2026-07-03,90.0,At Risk
+C0137,Customer 137,South,2026-09-29,2.0,Active
+C0138,Customer 138,North,2026-07-19,74.0,At Risk
+C0139,Customer 139,West,2026-07-22,71.0,At Risk
+C0140,Customer 140,West,2026-08-12,50.0,Active
+C0141,Customer 141,South,2026-08-08,54.0,Active
+C0142,Customer 142,South,2026-07-27,66.0,At Risk
+C0143,Customer 143,East,2026-04-13,171.0,At Risk
+C0144,Customer 144,East,2026-09-28,3.0,Active
+C0145,Customer 145,West,2026-09-25,6.0,Active
+C0146,Customer 146,East,2026-06-04,119.0,At Risk
+C0147,Customer 147,East,2026-06-12,111.0,At Risk
+C0148,Customer 148,East,2026-08-04,58.0,Active
+C0149,Customer 149,West,2026-03-23,192.0,At Risk
+C0150,Customer 150,West,2026-05-19,135.0,At Risk
+C0151,Customer 151,North,2026-08-29,33.0,Active
+C0152,Customer 152,South,2026-08-18,44.0,Active
+C0153,Customer 153,West,2026-05-01,153.0,At Risk
+C0154,Customer 154,South,2026-06-22,101.0,At Risk
+C0155,Customer 155,North,2026-09-27,4.0,Active
+C0156,Customer 156,East,2026-08-16,46.0,Active
+C0157,Customer 157,East,2026-09-19,12.0,Active
+C0158,Customer 158,West,2026-09-14,17.0,Active
+C0159,Customer 159,East,2026-04-24,160.0,At Risk
+C0160,Customer 160,South,2026-01-17,257.0,At Risk
+C0161,Customer 161,West,2026-09-09,22.0,Active
+C0162,Customer 162,East,2026-09-10,21.0,Active
+C0163,Customer 163,North,2026-09-15,16.0,Active
+C0164,Customer 164,South,2026-07-21,72.0,At Risk
+C0165,Customer 165,East,2026-06-28,95.0,At Risk
+C0166,Customer 166,West,2026-09-28,3.0,Active
+C0167,Customer 167,West,2026-09-04,27.0,Active
+C0168,Customer 168,North,2026-08-28,34.0,Active
+C0169,Customer 169,East,2026-09-09,22.0,Active
+C0170,Customer 170,East,2026-05-28,126.0,At Risk
+C0171,Customer 171,South,2026-08-16,46.0,Active
+C0172,Customer 172,South,2026-09-10,21.0,Active
+C0173,Customer 173,North,2026-09-22,9.0,Active
+C0174,Customer 174,South,2026-09-12,19.0,Active
+C0175,Customer 175,West,2026-07-19,74.0,At Risk
+C0176,Customer 176,South,2026-06-26,97.0,At Risk
+C0177,Customer 177,North,2026-08-30,32.0,Active
+C0178,Customer 178,South,2026-09-20,11.0,Active
+C0179,Customer 179,West,2026-07-27,66.0,At Risk
+C0180,Customer 180,South,2026-09-10,21.0,Active
+C0181,Customer 181,South,2026-09-17,14.0,Active
+C0182,Customer 182,East,2026-06-13,110.0,At Risk
+C0183,Customer 183,West,2026-07-24,69.0,At Risk
+C0184,Customer 184,South,2026-07-25,68.0,At Risk
+C0185,Customer 185,East,2026-06-13,110.0,At Risk
+C0186,Customer 186,East,2026-06-22,101.0,At Risk
+C0187,Customer 187,South,2026-07-21,72.0,At Risk
+C0188,Customer 188,North,2026-08-28,34.0,Active
+C0189,Customer 189,South,2026-08-28,34.0,Active
+C0190,Customer 190,East,2026-05-04,150.0,At Risk
+C0191,Customer 191,South,2026-05-28,126.0,At Risk
+C0192,Customer 192,West,2026-02-02,241.0,At Risk
+C0193,Customer 193,South,2026-07-26,67.0,At Risk
+C0194,Customer 194,West,2026-09-13,18.0,Active
+C0195,Customer 195,West,2026-09-07,24.0,Active
+C0196,Customer 196,South,,,No Delivered Orders
+C0197,Customer 197,North,2026-07-20,73.0,At Risk
+C0198,Customer 198,West,2026-07-14,79.0,At Risk
+C0199,Customer 199,East,2026-09-28,3.0,Active
+C0200,Customer 200,South,2026-08-23,39.0,Active
+C0201,Customer 201,East,2026-06-30,93.0,At Risk
+C0202,Customer 202,North,2026-07-16,77.0,At Risk
+C0203,Customer 203,West,2026-08-06,56.0,Active
+C0204,Customer 204,South,2026-05-26,128.0,At Risk
+C0205,Customer 205,North,2026-08-24,38.0,Active
+C0206,Customer 206,North,2026-08-08,54.0,Active
+C0207,Customer 207,West,2026-09-23,8.0,Active
+C0208,Customer 208,South,2026-05-16,138.0,At Risk
+C0209,Customer 209,West,2026-07-10,83.0,At Risk
+C0210,Customer 210,West,2026-09-17,14.0,Active
+C0211,Customer 211,West,2026-08-29,33.0,Active
+C0212,Customer 212,East,2026-09-18,13.0,Active
+C0213,Customer 213,North,2026-08-31,31.0,Active
+C0214,Customer 214,East,2026-09-28,3.0,Active
+C0215,Customer 215,North,2026-09-08,23.0,Active
+C0216,Customer 216,North,2026-09-21,10.0,Active
+C0217,Customer 217,North,2026-08-05,57.0,Active
+C0218,Customer 218,South,2026-09-11,20.0,Active
+C0219,Customer 219,North,2026-09-04,27.0,Active
+C0220,Customer 220,West,2026-06-17,106.0,At Risk
+C0221,Customer 221,East,2026-09-01,30.0,Active
+C0222,Customer 222,North,2026-08-30,32.0,Active
+C0223,Customer 223,North,2026-09-06,25.0,Active
+C0224,Customer 224,East,2026-09-24,7.0,Active
+C0225,Customer 225,West,2026-05-10,144.0,At Risk
+C0226,Customer 226,South,2026-08-30,32.0,Active
+C0227,Customer 227,North,2026-04-20,164.0,At Risk
+C0228,Customer 228,East,2026-09-01,30.0,Active
+C0229,Customer 229,East,2026-08-12,50.0,Active
+C0230,Customer 230,East,2026-05-26,128.0,At Risk
+C0231,Customer 231,West,2026-02-16,227.0,At Risk
+C0232,Customer 232,East,2026-08-29,33.0,Active
+C0233,Customer 233,South,2026-08-07,55.0,Active
+C0234,Customer 234,East,2026-07-22,71.0,At Risk
+C0235,Customer 235,West,2026-09-03,28.0,Active
+C0236,Customer 236,East,2026-05-18,136.0,At Risk
+C0237,Customer 237,North,2026-06-22,101.0,At Risk
+C0238,Customer 238,South,2026-07-31,62.0,At Risk
+C0239,Customer 239,West,2026-03-19,196.0,At Risk
+C0240,Customer 240,West,2026-04-29,155.0,At Risk
+C0241,Customer 241,West,2026-09-06,25.0,Active
+C0242,Customer 242,East,2026-08-19,43.0,Active
+C0243,Customer 243,East,2026-09-14,17.0,Active
+C0244,Customer 244,South,2026-07-24,69.0,At Risk
+C0245,Customer 245,West,2026-09-30,1.0,Active
+C0246,Customer 246,South,2026-06-09,114.0,At Risk
+C0247,Customer 247,West,2026-09-08,23.0,Active
+C0248,Customer 248,North,2026-09-14,17.0,Active
+C0249,Customer 249,West,2026-07-25,68.0,At Risk
+C0250,Customer 250,East,2026-09-26,5.0,Active
+C0251,Customer 251,East,2026-09-12,19.0,Active
+C0252,Customer 252,East,2026-07-13,80.0,At Risk
+C0253,Customer 253,East,2026-09-26,5.0,Active
+C0254,Customer 254,East,2026-06-17,106.0,At Risk
+C0255,Customer 255,South,2026-06-27,96.0,At Risk
+C0256,Customer 256,East,2026-08-29,33.0,Active
+C0257,Customer 257,South,2026-09-06,25.0,Active
+C0258,Customer 258,West,2026-09-15,16.0,Active
+C0259,Customer 259,East,2026-09-29,2.0,Active
+C0260,Customer 260,East,2026-04-22,162.0,At Risk
+C0261,Customer 261,South,2026-07-04,89.0,At Risk
+C0262,Customer 262,South,2026-07-09,84.0,At Risk
+C0263,Customer 263,North,2026-05-14,140.0,At Risk
+C0264,Customer 264,South,2026-05-31,123.0,At Risk
+C0265,Customer 265,North,2026-07-26,67.0,At Risk
+C0266,Customer 266,East,2026-09-18,13.0,Active
+C0267,Customer 267,West,2026-09-21,10.0,Active
+C0268,Customer 268,North,2026-09-13,18.0,Active
+C0269,Customer 269,North,2026-08-20,42.0,Active
+C0270,Customer 270,West,2026-08-27,35.0,Active
+C0271,Customer 271,North,2026-09-08,23.0,Active
+C0272,Customer 272,East,2026-09-05,26.0,Active
+C0273,Customer 273,North,2026-08-09,53.0,Active
+C0274,Customer 274,South,2026-09-15,16.0,Active
+C0275,Customer 275,West,2026-08-20,42.0,Active
+C0276,Customer 276,West,2026-08-22,40.0,Active
+C0277,Customer 277,North,2026-02-24,219.0,At Risk
+C0278,Customer 278,South,2026-07-08,85.0,At Risk
+C0279,Customer 279,East,2026-09-22,9.0,Active
+C0280,Customer 280,South,2026-08-18,44.0,Active
+C0281,Customer 281,North,2026-09-09,22.0,Active
+C0282,Customer 282,West,2026-07-17,76.0,At Risk
+C0283,Customer 283,West,2026-09-24,7.0,Active
+C0284,Customer 284,South,2026-06-25,98.0,At Risk
+C0285,Customer 285,West,2026-05-18,136.0,At Risk
+C0286,Customer 286,East,2026-07-25,68.0,At Risk
+C0287,Customer 287,South,2026-09-21,10.0,Active
+C0288,Customer 288,South,2026-08-19,43.0,Active
+C0289,Customer 289,East,2026-07-26,67.0,At Risk
+C0290,Customer 290,North,2026-03-05,210.0,At Risk
+C0291,Customer 291,East,2026-09-01,30.0,Active
+C0292,Customer 292,West,2026-06-16,107.0,At Risk
+C0293,Customer 293,West,2026-08-28,34.0,Active
+C0294,Customer 294,West,2026-09-30,1.0,Active
+C0295,Customer 295,North,2026-08-24,38.0,Active
+C0296,Customer 296,East,2026-07-11,82.0,At Risk
+C0297,Customer 297,South,2026-04-14,170.0,At Risk
+C0298,Customer 298,North,,,No Delivered Orders
+C0299,Customer 299,North,2026-04-18,166.0,At Risk
+C0300,Customer 300,West,2026-07-09,84.0,At Risk
+C0301,Customer 301,West,2026-07-19,74.0,At Risk
+C0302,Customer 302,North,2026-09-20,11.0,Active
+C0303,Customer 303,West,2026-07-07,86.0,At Risk
+C0304,Customer 304,North,2026-09-13,18.0,Active
+C0305,Customer 305,West,2026-09-12,19.0,Active
+C0306,Customer 306,East,2026-08-22,40.0,Active
+C0307,Customer 307,North,2026-07-26,67.0,At Risk
+C0308,Customer 308,East,2026-09-08,23.0,Active
+C0309,Customer 309,North,2026-09-30,1.0,Active
+C0310,Customer 310,North,2026-09-26,5.0,Active
+C0311,Customer 311,West,2026-08-18,44.0,Active
+C0312,Customer 312,South,2026-09-14,17.0,Active
+C0313,Customer 313,West,2026-09-29,2.0,Active
+C0314,Customer 314,North,2026-08-28,34.0,Active
+C0315,Customer 315,South,2026-09-29,2.0,Active
+C0316,Customer 316,West,2026-08-02,60.0,At Risk
+C0317,Customer 317,South,2026-09-26,5.0,Active
+C0318,Customer 318,East,2026-08-20,42.0,Active
+C0319,Customer 319,West,2026-02-19,224.0,At Risk
+C0320,Customer 320,North,2026-09-24,7.0,Active
+C0321,Customer 321,South,2026-02-28,215.0,At Risk
+C0322,Customer 322,East,2026-08-24,38.0,Active
+C0323,Customer 323,West,2026-05-22,132.0,At Risk
+C0324,Customer 324,South,2026-04-26,158.0,At Risk
+C0325,Customer 325,South,2026-09-29,2.0,Active
+C0326,Customer 326,West,2026-07-20,73.0,At Risk
+C0327,Customer 327,East,2026-07-03,90.0,At Risk
+C0328,Customer 328,East,2026-09-02,29.0,Active
+C0329,Customer 329,West,2026-09-30,1.0,Active
+C0330,Customer 330,West,2026-09-05,26.0,Active
+C0331,Customer 331,West,2026-07-22,71.0,At Risk
+C0332,Customer 332,South,2026-06-28,95.0,At Risk
+C0333,Customer 333,West,2026-09-17,14.0,Active
+C0334,Customer 334,North,2026-08-26,36.0,Active
+C0335,Customer 335,West,2026-08-15,47.0,Active
+C0336,Customer 336,South,2026-07-18,75.0,At Risk
+C0337,Customer 337,South,2026-08-20,42.0,Active
+C0338,Customer 338,East,2026-06-04,119.0,At Risk
+C0339,Customer 339,North,2026-09-25,6.0,Active
+C0340,Customer 340,North,2026-08-21,41.0,Active
+C0341,Customer 341,South,2026-09-16,15.0,Active
+C0342,Customer 342,East,2026-07-22,71.0,At Risk
+C0343,Customer 343,West,2026-09-06,25.0,Active
+C0344,Customer 344,East,2026-08-18,44.0,Active
+C0345,Customer 345,West,2026-08-30,32.0,Active
+C0346,Customer 346,West,2026-08-01,61.0,At Risk
+C0347,Customer 347,North,2026-07-17,76.0,At Risk
+C0348,Customer 348,East,2026-05-11,143.0,At Risk
+C0349,Customer 349,West,2026-09-09,22.0,Active
+C0350,Customer 350,North,2026-08-17,45.0,Active
+C0351,Customer 351,East,2026-09-23,8.0,Active
+C0352,Customer 352,East,2026-08-20,42.0,Active
+C0353,Customer 353,East,2026-08-30,32.0,Active
+C0354,Customer 354,South,2026-07-03,90.0,At Risk
+C0355,Customer 355,West,2026-08-06,56.0,Active
+C0356,Customer 356,South,2026-09-26,5.0,Active
+C0357,Customer 357,West,2026-07-20,73.0,At Risk
+C0358,Customer 358,West,2026-09-25,6.0,Active
+C0359,Customer 359,South,2026-07-17,76.0,At Risk
+C0360,Customer 360,East,2026-07-28,65.0,At Risk
+C0361,Customer 361,North,2026-06-28,95.0,At Risk
+C0362,Customer 362,South,2026-08-27,35.0,Active
+C0363,Customer 363,East,2026-08-24,38.0,Active
+C0364,Customer 364,West,2026-09-13,18.0,Active
+C0365,Customer 365,West,2026-08-25,37.0,Active
+C0366,Customer 366,West,2026-06-29,94.0,At Risk
+C0367,Customer 367,South,2026-02-07,236.0,At Risk
+C0368,Customer 368,East,2026-08-27,35.0,Active
+C0369,Customer 369,East,2026-09-13,18.0,Active
+C0370,Customer 370,West,2026-08-17,45.0,Active
+C0371,Customer 371,North,2026-05-18,136.0,At Risk
+C0372,Customer 372,East,2026-05-19,135.0,At Risk
+C0373,Customer 373,East,2026-06-29,94.0,At Risk
+C0374,Customer 374,South,2026-08-13,49.0,Active
+C0375,Customer 375,South,2026-05-14,140.0,At Risk
+C0376,Customer 376,North,2026-07-02,91.0,At Risk
+C0377,Customer 377,North,2026-09-23,8.0,Active
+C0378,Customer 378,South,2026-09-15,16.0,Active
+C0379,Customer 379,East,2026-09-27,4.0,Active
+C0380,Customer 380,South,2026-09-29,2.0,Active
+C0381,Customer 381,East,2026-06-10,113.0,At Risk
+C0382,Customer 382,East,2026-08-20,42.0,Active
+C0383,Customer 383,West,2026-09-11,20.0,Active
+C0384,Customer 384,North,2026-09-30,1.0,Active
+C0385,Customer 385,South,2026-07-24,69.0,At Risk
+C0386,Customer 386,East,2026-08-24,38.0,Active
+C0387,Customer 387,North,2026-09-26,5.0,Active
+C0388,Customer 388,North,2026-09-23,8.0,Active
+C0389,Customer 389,East,2026-08-30,32.0,Active
+C0390,Customer 390,East,2026-09-26,5.0,Active
+C0391,Customer 391,West,2026-09-09,22.0,Active
+C0392,Customer 392,East,2026-08-09,53.0,Active
+C0393,Customer 393,North,2026-09-28,3.0,Active
+C0394,Customer 394,East,2026-09-19,12.0,Active
+C0395,Customer 395,North,2026-05-31,123.0,At Risk
+C0396,Customer 396,North,2026-08-11,51.0,Active
+C0397,Customer 397,North,2026-06-10,113.0,At Risk
+C0398,Customer 398,South,2026-09-15,16.0,Active
+C0399,Customer 399,East,2026-09-12,19.0,Active
+C0400,Customer 400,West,2026-07-28,65.0,At Risk
+C0401,Customer 401,West,2026-07-21,72.0,At Risk
+C0402,Customer 402,West,2026-07-02,91.0,At Risk
+C0403,Customer 403,East,2026-09-16,15.0,Active
+C0404,Customer 404,South,2026-02-20,223.0,At Risk
+C0405,Customer 405,South,2026-03-04,211.0,At Risk
+C0406,Customer 406,East,2026-08-31,31.0,Active
+C0407,Customer 407,East,2026-08-09,53.0,Active
+C0408,Customer 408,East,2026-08-21,41.0,Active
+C0409,Customer 409,West,2026-08-11,51.0,Active
+C0410,Customer 410,South,2026-09-14,17.0,Active
+C0411,Customer 411,North,2026-09-24,7.0,Active
+C0412,Customer 412,South,2026-09-28,3.0,Active
+C0413,Customer 413,South,2026-09-28,3.0,Active
+C0414,Customer 414,South,2026-09-26,5.0,Active
+C0415,Customer 415,South,2026-06-15,108.0,At Risk
+C0416,Customer 416,North,2026-08-11,51.0,Active
+C0417,Customer 417,South,2026-08-29,33.0,Active
+C0418,Customer 418,South,2026-09-15,16.0,Active
+C0419,Customer 419,North,2026-09-27,4.0,Active
+C0420,Customer 420,East,,,No Delivered Orders
+C0421,Customer 421,East,2026-03-23,192.0,At Risk
+C0422,Customer 422,East,2026-05-26,128.0,At Risk
+C0423,Customer 423,West,2026-09-22,9.0,Active
+C0424,Customer 424,North,2026-07-05,88.0,At Risk
+C0425,Customer 425,East,2026-05-06,148.0,At Risk
+C0426,Customer 426,North,2026-07-13,80.0,At Risk
+C0427,Customer 427,South,2026-06-13,110.0,At Risk
+C0428,Customer 428,East,2026-04-29,155.0,At Risk
+C0429,Customer 429,North,2026-09-11,20.0,Active
+C0430,Customer 430,West,2026-09-15,16.0,Active
+C0431,Customer 431,West,2026-06-08,115.0,At Risk
+C0432,Customer 432,North,2026-09-09,22.0,Active
+C0433,Customer 433,South,2026-09-21,10.0,Active
+C0434,Customer 434,East,2026-08-20,42.0,Active
+C0435,Customer 435,East,2026-09-18,13.0,Active
+C0436,Customer 436,East,2026-08-16,46.0,Active
+C0437,Customer 437,West,2026-09-20,11.0,Active
+C0438,Customer 438,South,2026-09-07,24.0,Active
+C0439,Customer 439,South,2026-08-04,58.0,Active
+C0440,Customer 440,West,2026-08-31,31.0,Active
+C0441,Customer 441,North,2026-04-22,162.0,At Risk
+C0442,Customer 442,East,2026-09-16,15.0,Active
+C0443,Customer 443,East,2026-08-15,47.0,Active
+C0444,Customer 444,North,2026-07-22,71.0,At Risk
+C0445,Customer 445,North,2026-08-21,41.0,Active
+C0446,Customer 446,East,2026-08-21,41.0,Active
+C0447,Customer 447,North,2026-07-20,73.0,At Risk
+C0448,Customer 448,East,2026-09-02,29.0,Active
+C0449,Customer 449,West,2026-09-17,14.0,Active
+C0450,Customer 450,West,2026-08-22,40.0,Active
+C0451,Customer 451,East,2026-08-24,38.0,Active
+C0452,Customer 452,South,2026-08-25,37.0,Active
+C0453,Customer 453,West,2026-09-25,6.0,Active
+C0454,Customer 454,East,2026-07-31,62.0,At Risk
+C0455,Customer 455,North,2026-08-01,61.0,At Risk
+C0456,Customer 456,South,2026-09-15,16.0,Active
+C0457,Customer 457,North,2026-09-04,27.0,Active
+C0458,Customer 458,East,2026-08-13,49.0,Active
+C0459,Customer 459,East,,,No Delivered Orders
+C0460,Customer 460,East,2026-08-08,54.0,Active
+C0461,Customer 461,South,2026-08-15,47.0,Active
+C0462,Customer 462,West,2026-04-02,182.0,At Risk
+C0463,Customer 463,North,2026-09-25,6.0,Active
+C0464,Customer 464,South,2026-09-20,11.0,Active
+C0465,Customer 465,West,2026-05-15,139.0,At Risk
+C0466,Customer 466,East,2026-06-27,96.0,At Risk
+C0467,Customer 467,North,2026-09-25,6.0,Active
+C0468,Customer 468,South,2026-07-17,76.0,At Risk
+C0469,Customer 469,North,2026-09-20,11.0,Active
+C0470,Customer 470,West,2026-09-13,18.0,Active
+C0471,Customer 471,West,2026-09-28,3.0,Active
+C0472,Customer 472,South,2026-09-03,28.0,Active
+C0473,Customer 473,East,2026-09-16,15.0,Active
+C0474,Customer 474,East,2026-09-24,7.0,Active
+C0475,Customer 475,West,2026-08-31,31.0,Active
+C0476,Customer 476,East,2026-09-11,20.0,Active
+C0477,Customer 477,West,2026-06-09,114.0,At Risk
+C0478,Customer 478,North,2026-09-24,7.0,Active
+C0479,Customer 479,South,2026-08-16,46.0,Active
+C0480,Customer 480,East,2026-08-24,38.0,Active
+C0481,Customer 481,North,2026-09-17,14.0,Active
+C0482,Customer 482,South,2026-03-27,188.0,At Risk
+C0483,Customer 483,South,2026-07-07,86.0,At Risk
+C0484,Customer 484,East,2026-07-20,73.0,At Risk
+C0485,Customer 485,North,2026-08-12,50.0,Active
+C0486,Customer 486,West,2026-08-05,57.0,Active
+C0487,Customer 487,West,2026-07-30,63.0,At Risk
+C0488,Customer 488,West,2026-09-11,20.0,Active
+C0489,Customer 489,West,2026-07-27,66.0,At Risk
+C0490,Customer 490,South,2026-06-27,96.0,At Risk
+C0491,Customer 491,East,2026-09-11,20.0,Active
+C0492,Customer 492,North,2026-08-16,46.0,Active
+C0493,Customer 493,West,2026-08-16,46.0,Active
+C0494,Customer 494,West,2026-08-05,57.0,Active
+C0495,Customer 495,South,2026-09-17,14.0,Active
+C0496,Customer 496,North,2026-06-07,116.0,At Risk
+C0497,Customer 497,North,2026-09-15,16.0,Active
+C0498,Customer 498,South,2026-09-22,9.0,Active
+C0499,Customer 499,South,2026-09-13,18.0,Active
+C0500,Customer 500,South,2026-08-22,40.0,Active
+C0501,Customer 501,South,2026-08-30,32.0,Active
+C0502,Customer 502,North,2026-09-07,24.0,Active
+C0503,Customer 503,West,2026-07-12,81.0,At Risk
+C0504,Customer 504,West,2026-07-21,72.0,At Risk
+C0505,Customer 505,East,2026-08-28,34.0,Active
+C0506,Customer 506,South,2026-07-30,63.0,At Risk
+C0507,Customer 507,West,2026-08-22,40.0,Active
+C0508,Customer 508,East,2026-08-15,47.0,Active
+C0509,Customer 509,North,2026-07-21,72.0,At Risk
+C0510,Customer 510,North,2026-09-10,21.0,Active
+C0511,Customer 511,West,2026-07-13,80.0,At Risk
+C0512,Customer 512,East,,,No Delivered Orders
+C0513,Customer 513,North,2026-08-08,54.0,Active
+C0514,Customer 514,West,2026-09-25,6.0,Active
+C0515,Customer 515,North,2026-09-08,23.0,Active
+C0516,Customer 516,South,2026-08-24,38.0,Active
+C0517,Customer 517,West,2026-08-26,36.0,Active
+C0518,Customer 518,North,2026-07-05,88.0,At Risk
+C0519,Customer 519,East,2026-07-06,87.0,At Risk
+C0520,Customer 520,South,2026-06-29,94.0,At Risk
+C0521,Customer 521,West,2026-09-07,24.0,Active
+C0522,Customer 522,South,2026-07-19,74.0,At Risk
+C0523,Customer 523,East,2026-07-23,70.0,At Risk
+C0524,Customer 524,East,2026-08-12,50.0,Active
+C0525,Customer 525,North,2026-07-30,63.0,At Risk
+C0526,Customer 526,East,2026-09-19,12.0,Active
+C0527,Customer 527,North,2026-06-28,95.0,At Risk
+C0528,Customer 528,East,2026-09-30,1.0,Active
+C0529,Customer 529,South,2026-09-11,20.0,Active
+C0530,Customer 530,South,2026-06-21,102.0,At Risk
+C0531,Customer 531,West,2026-08-29,33.0,Active
+C0532,Customer 532,North,2026-07-24,69.0,At Risk
+C0533,Customer 533,West,2026-09-21,10.0,Active
+C0534,Customer 534,South,2026-09-26,5.0,Active
+C0535,Customer 535,North,2026-09-01,30.0,Active
+C0536,Customer 536,West,2026-05-06,148.0,At Risk
+C0537,Customer 537,North,2026-09-18,13.0,Active
+C0538,Customer 538,South,2026-08-20,42.0,Active
+C0539,Customer 539,West,2026-07-01,92.0,At Risk
+C0540,Customer 540,South,2026-09-26,5.0,Active
+C0541,Customer 541,East,2026-08-30,32.0,Active
+C0542,Customer 542,North,2026-04-25,159.0,At Risk
+C0543,Customer 543,South,2026-06-20,103.0,At Risk
+C0544,Customer 544,South,2026-09-09,22.0,Active
+C0545,Customer 545,South,2026-07-22,71.0,At Risk
+C0546,Customer 546,West,2026-08-30,32.0,Active
+C0547,Customer 547,West,2026-06-14,109.0,At Risk
+C0548,Customer 548,West,2026-09-09,22.0,Active
+C0549,Customer 549,South,2026-01-01,273.0,At Risk
+C0550,Customer 550,South,2026-05-25,129.0,At Risk
+C0551,Customer 551,West,,,No Delivered Orders
+C0552,Customer 552,West,2026-08-01,61.0,At Risk
+C0553,Customer 553,West,2026-04-18,166.0,At Risk
+C0554,Customer 554,South,2026-09-15,16.0,Active
+C0555,Customer 555,West,2026-09-04,27.0,Active
+C0556,Customer 556,North,2026-09-08,23.0,Active
+C0557,Customer 557,North,2026-07-15,78.0,At Risk
+C0558,Customer 558,South,2026-08-26,36.0,Active
+C0559,Customer 559,South,,,No Delivered Orders
+C0560,Customer 560,South,2026-06-26,97.0,At Risk
+C0561,Customer 561,North,2026-08-31,31.0,Active
+C0562,Customer 562,West,2026-09-01,30.0,Active
+C0563,Customer 563,South,,,No Delivered Orders
+C0564,Customer 564,East,2026-09-16,15.0,Active
+C0565,Customer 565,East,2026-08-30,32.0,Active
+C0566,Customer 566,East,2026-08-27,35.0,Active
+C0567,Customer 567,North,2026-09-16,15.0,Active
+C0568,Customer 568,South,2026-08-29,33.0,Active
+C0569,Customer 569,West,2026-07-11,82.0,At Risk
+C0570,Customer 570,North,2026-09-21,10.0,Active
+C0571,Customer 571,South,2026-06-30,93.0,At Risk
+C0572,Customer 572,West,2026-09-24,7.0,Active
+C0573,Customer 573,South,2026-09-27,4.0,Active
+C0574,Customer 574,North,2026-06-19,104.0,At Risk
+C0575,Customer 575,West,2026-09-09,22.0,Active
+C0576,Customer 576,West,2026-08-23,39.0,Active
+C0577,Customer 577,North,2026-06-09,114.0,At Risk
+C0578,Customer 578,South,2026-09-26,5.0,Active
+C0579,Customer 579,West,2026-09-05,26.0,Active
+C0580,Customer 580,East,2026-06-22,101.0,At Risk
+C0581,Customer 581,West,2026-09-01,30.0,Active
+C0582,Customer 582,North,2026-07-08,85.0,At Risk
+C0583,Customer 583,North,2026-09-10,21.0,Active
+C0584,Customer 584,North,2026-07-12,81.0,At Risk
+C0585,Customer 585,North,2026-08-02,60.0,At Risk
+C0586,Customer 586,East,2026-09-26,5.0,Active
+C0587,Customer 587,East,2026-09-03,28.0,Active
+C0588,Customer 588,South,2026-08-14,48.0,Active
+C0589,Customer 589,North,2026-08-03,59.0,Active
+C0590,Customer 590,South,2026-05-11,143.0,At Risk
+C0591,Customer 591,East,2026-09-02,29.0,Active
+C0592,Customer 592,West,2026-09-09,22.0,Active
+C0593,Customer 593,South,2026-09-22,9.0,Active
+C0594,Customer 594,West,2026-08-16,46.0,Active
+C0595,Customer 595,South,2026-08-04,58.0,Active
+C0596,Customer 596,North,2026-07-09,84.0,At Risk
+C0597,Customer 597,West,2026-08-30,32.0,Active
+C0598,Customer 598,East,2026-04-08,176.0,At Risk
+C0599,Customer 599,South,2026-07-22,71.0,At Risk
+C0600,Customer 600,North,2026-08-26,36.0,Active
+C0601,Customer 601,East,2026-06-15,108.0,At Risk
+C0602,Customer 602,West,2026-08-19,43.0,Active
+C0603,Customer 603,West,2026-09-01,30.0,Active
+C0604,Customer 604,West,2026-08-14,48.0,Active
+C0605,Customer 605,East,2026-07-12,81.0,At Risk
+C0606,Customer 606,North,2026-07-07,86.0,At Risk
+C0607,Customer 607,West,2026-07-03,90.0,At Risk
+C0608,Customer 608,East,2026-09-30,1.0,Active
+C0609,Customer 609,North,2026-05-23,131.0,At Risk
+C0610,Customer 610,East,2026-08-14,48.0,Active
+C0611,Customer 611,West,2026-07-22,71.0,At Risk
+C0612,Customer 612,East,2026-09-21,10.0,Active
+C0613,Customer 613,East,2026-08-22,40.0,Active
+C0614,Customer 614,East,2026-09-29,2.0,Active
+C0615,Customer 615,North,2026-09-27,4.0,Active
+C0616,Customer 616,West,,,No Delivered Orders
+C0617,Customer 617,South,2026-09-27,4.0,Active
+C0618,Customer 618,West,2026-09-20,11.0,Active
+C0619,Customer 619,North,2026-05-23,131.0,At Risk
+C0620,Customer 620,East,2026-07-02,91.0,At Risk
+C0621,Customer 621,North,2026-08-02,60.0,At Risk
+C0622,Customer 622,West,2026-08-08,54.0,Active
+C0623,Customer 623,West,2026-07-14,79.0,At Risk
+C0624,Customer 624,South,2026-07-19,74.0,At Risk
+C0625,Customer 625,West,2026-01-22,252.0,At Risk
+C0626,Customer 626,East,2026-08-28,34.0,Active
+C0627,Customer 627,North,2026-09-16,15.0,Active
+C0628,Customer 628,West,2026-08-16,46.0,Active
+C0629,Customer 629,East,2026-07-13,80.0,At Risk
+C0630,Customer 630,South,2026-09-12,19.0,Active
+C0631,Customer 631,West,2026-09-25,6.0,Active
+C0632,Customer 632,South,2026-09-25,6.0,Active
+C0633,Customer 633,South,2026-08-10,52.0,Active
+C0634,Customer 634,North,2026-09-01,30.0,Active
+C0635,Customer 635,East,2026-09-09,22.0,Active
+C0636,Customer 636,East,2026-09-09,22.0,Active
+C0637,Customer 637,South,2026-02-19,224.0,At Risk
+C0638,Customer 638,South,2026-06-29,94.0,At Risk
+C0639,Customer 639,South,2026-08-25,37.0,Active
+C0640,Customer 640,North,2026-05-22,132.0,At Risk
+C0641,Customer 641,East,2026-07-14,79.0,At Risk
+C0642,Customer 642,South,2026-09-07,24.0,Active
+C0643,Customer 643,North,2026-09-22,9.0,Active
+C0644,Customer 644,West,2026-03-20,195.0,At Risk
+C0645,Customer 645,West,2026-08-19,43.0,Active
+C0646,Customer 646,South,2026-08-12,50.0,Active
+C0647,Customer 647,North,2026-05-07,147.0,At Risk
+C0648,Customer 648,East,2026-09-09,22.0,Active
+C0649,Customer 649,South,2026-09-09,22.0,Active
+C0650,Customer 650,North,,,No Delivered Orders
+C0651,Customer 651,South,2026-08-29,33.0,Active
+C0652,Customer 652,South,2026-08-14,48.0,Active
+C0653,Customer 653,East,2026-07-21,72.0,At Risk
+C0654,Customer 654,North,2026-03-29,186.0,At Risk
+C0655,Customer 655,East,2026-08-01,61.0,At Risk
+C0656,Customer 656,East,2026-09-25,6.0,Active
+C0657,Customer 657,North,2026-09-19,12.0,Active
+C0658,Customer 658,South,2026-08-27,35.0,Active
+C0659,Customer 659,South,2026-05-25,129.0,At Risk
+C0660,Customer 660,East,2026-08-22,40.0,Active
+C0661,Customer 661,North,2026-09-10,21.0,Active
+C0662,Customer 662,East,2026-09-13,18.0,Active
+C0663,Customer 663,West,2026-09-25,6.0,Active
+C0664,Customer 664,North,2026-08-09,53.0,Active
+C0665,Customer 665,East,2026-08-18,44.0,Active
+C0666,Customer 666,West,2026-09-15,16.0,Active
+C0667,Customer 667,East,2026-04-30,154.0,At Risk
+C0668,Customer 668,North,2026-06-21,102.0,At Risk
+C0669,Customer 669,West,2026-09-20,11.0,Active
+C0670,Customer 670,South,2026-09-22,9.0,Active
+C0671,Customer 671,South,2026-09-11,20.0,Active
+C0672,Customer 672,East,2026-07-06,87.0,At Risk
+C0673,Customer 673,East,2026-08-13,49.0,Active
+C0674,Customer 674,North,2026-06-14,109.0,At Risk
+C0675,Customer 675,West,2026-08-27,35.0,Active
+C0676,Customer 676,West,2026-08-12,50.0,Active
+C0677,Customer 677,North,2026-06-17,106.0,At Risk
+C0678,Customer 678,West,2026-09-09,22.0,Active
+C0679,Customer 679,South,2026-07-04,89.0,At Risk
+C0680,Customer 680,East,2026-08-01,61.0,At Risk
+C0681,Customer 681,West,2026-08-10,52.0,Active
+C0682,Customer 682,West,2026-09-24,7.0,Active
+C0683,Customer 683,North,2026-07-27,66.0,At Risk
+C0684,Customer 684,West,2026-09-24,7.0,Active
+C0685,Customer 685,East,2026-07-12,81.0,At Risk
+C0686,Customer 686,East,2026-07-02,91.0,At Risk
+C0687,Customer 687,West,2026-08-18,44.0,Active
+C0688,Customer 688,North,2026-09-26,5.0,Active
+C0689,Customer 689,South,2026-09-11,20.0,Active
+C0690,Customer 690,West,2026-07-04,89.0,At Risk
+C0691,Customer 691,West,2026-08-07,55.0,Active
+C0692,Customer 692,South,2026-08-21,41.0,Active
+C0693,Customer 693,East,,,No Delivered Orders
+C0694,Customer 694,West,2026-06-28,95.0,At Risk
+C0695,Customer 695,North,2026-09-30,1.0,Active
+C0696,Customer 696,West,2026-09-21,10.0,Active
+C0697,Customer 697,East,2026-09-13,18.0,Active
+C0698,Customer 698,West,2026-06-22,101.0,At Risk
+C0699,Customer 699,North,2026-09-06,25.0,Active
+C0700,Customer 700,East,2026-09-13,18.0,Active
+C0701,Customer 701,West,2026-08-27,35.0,Active
+C0702,Customer 702,South,2026-07-17,76.0,At Risk
+C0703,Customer 703,East,2026-07-26,67.0,At Risk
+C0704,Customer 704,East,2026-06-25,98.0,At Risk
+C0705,Customer 705,West,2026-07-14,79.0,At Risk
+C0706,Customer 706,East,2026-06-19,104.0,At Risk
+C0707,Customer 707,East,2026-09-18,13.0,Active
+C0708,Customer 708,West,2026-04-15,169.0,At Risk
+C0709,Customer 709,North,2026-06-25,98.0,At Risk
+C0710,Customer 710,East,2026-08-10,52.0,Active
+C0711,Customer 711,South,2026-09-15,16.0,Active
+C0712,Customer 712,West,2026-05-06,148.0,At Risk
+C0713,Customer 713,West,2026-09-29,2.0,Active
+C0714,Customer 714,North,2026-09-26,5.0,Active
+C0715,Customer 715,South,2026-09-16,15.0,Active
+C0716,Customer 716,East,2026-09-17,14.0,Active
+C0717,Customer 717,West,2026-08-31,31.0,Active
+C0718,Customer 718,West,2026-08-03,59.0,Active
+C0719,Customer 719,West,2026-07-19,74.0,At Risk
+C0720,Customer 720,South,2026-08-24,38.0,Active
+C0721,Customer 721,West,2026-07-27,66.0,At Risk
+C0722,Customer 722,East,2026-09-05,26.0,Active
+C0723,Customer 723,East,2026-08-31,31.0,Active
+C0724,Customer 724,East,2026-09-28,3.0,Active
+C0725,Customer 725,South,2026-06-08,115.0,At Risk
+C0726,Customer 726,East,2026-09-17,14.0,Active
+C0727,Customer 727,East,2026-09-06,25.0,Active
+C0728,Customer 728,West,2026-09-10,21.0,Active
+C0729,Customer 729,East,2026-01-02,272.0,At Risk
+C0730,Customer 730,East,2026-08-21,41.0,Active
+C0731,Customer 731,West,2026-09-24,7.0,Active
+C0732,Customer 732,South,2026-08-20,42.0,Active
+C0733,Customer 733,East,2026-07-19,74.0,At Risk
+C0734,Customer 734,East,2026-05-29,125.0,At Risk
+C0735,Customer 735,East,2026-09-02,29.0,Active
+C0736,Customer 736,South,2026-05-01,153.0,At Risk
+C0737,Customer 737,East,2026-09-23,8.0,Active
+C0738,Customer 738,South,2026-03-13,202.0,At Risk
+C0739,Customer 739,South,2026-09-25,6.0,Active
+C0740,Customer 740,North,2026-08-16,46.0,Active
+C0741,Customer 741,East,2026-09-05,26.0,Active
+C0742,Customer 742,South,2026-09-24,7.0,Active
+C0743,Customer 743,South,2026-08-09,53.0,Active
+C0744,Customer 744,West,2026-09-07,24.0,Active
+C0745,Customer 745,South,2026-05-25,129.0,At Risk
+C0746,Customer 746,East,2026-07-18,75.0,At Risk
+C0747,Customer 747,North,2026-08-05,57.0,Active
+C0748,Customer 748,South,2026-08-11,51.0,Active
+C0749,Customer 749,South,2026-08-21,41.0,Active
+C0750,Customer 750,North,2026-07-23,70.0,At Risk
+C0751,Customer 751,South,2026-08-09,53.0,Active
+C0752,Customer 752,North,2026-01-10,264.0,At Risk
+C0753,Customer 753,North,2026-05-13,141.0,At Risk
+C0754,Customer 754,West,2026-09-26,5.0,Active
+C0755,Customer 755,West,2026-09-14,17.0,Active
+C0756,Customer 756,West,2026-02-04,239.0,At Risk
+C0757,Customer 757,North,2026-09-17,14.0,Active
+C0758,Customer 758,West,2026-09-24,7.0,Active
+C0759,Customer 759,South,2026-08-11,51.0,Active
+C0760,Customer 760,East,2026-09-30,1.0,Active
+C0761,Customer 761,South,2026-07-29,64.0,At Risk
+C0762,Customer 762,West,2026-08-06,56.0,Active
+C0763,Customer 763,East,2026-08-04,58.0,Active
+C0764,Customer 764,North,2026-05-12,142.0,At Risk
+C0765,Customer 765,West,2026-09-16,15.0,Active
+C0766,Customer 766,North,2026-05-19,135.0,At Risk
+C0767,Customer 767,South,2026-07-11,82.0,At Risk
+C0768,Customer 768,East,2026-08-31,31.0,Active
+C0769,Customer 769,North,2026-09-05,26.0,Active
+C0770,Customer 770,East,2026-09-18,13.0,Active
+C0771,Customer 771,North,2026-06-29,94.0,At Risk
+C0772,Customer 772,West,2026-04-29,155.0,At Risk
+C0773,Customer 773,West,2026-05-05,149.0,At Risk
+C0774,Customer 774,East,2026-09-08,23.0,Active
+C0775,Customer 775,East,2026-09-12,19.0,Active
+C0776,Customer 776,South,2026-06-29,94.0,At Risk
+C0777,Customer 777,West,2026-08-10,52.0,Active
+C0778,Customer 778,East,2026-08-23,39.0,Active
+C0779,Customer 779,West,2026-04-03,181.0,At Risk
+C0780,Customer 780,South,2026-09-03,28.0,Active
+C0781,Customer 781,North,2026-08-08,54.0,Active
+C0782,Customer 782,East,2026-09-15,16.0,Active
+C0783,Customer 783,North,2026-09-28,3.0,Active
+C0784,Customer 784,South,2026-06-23,100.0,At Risk
+C0785,Customer 785,South,2026-09-20,11.0,Active
+C0786,Customer 786,West,2026-08-09,53.0,Active
+C0787,Customer 787,West,2026-05-08,146.0,At Risk
+C0788,Customer 788,West,2026-08-31,31.0,Active
+C0789,Customer 789,South,2026-05-19,135.0,At Risk
+C0790,Customer 790,West,2026-09-24,7.0,Active
+C0791,Customer 791,West,2026-05-22,132.0,At Risk
+C0792,Customer 792,North,2026-02-18,225.0,At Risk
+C0793,Customer 793,North,2026-08-05,57.0,Active
+C0794,Customer 794,North,2026-08-09,53.0,Active
+C0795,Customer 795,East,2026-09-17,14.0,Active
+C0796,Customer 796,North,2026-07-15,78.0,At Risk
+C0797,Customer 797,North,2026-08-31,31.0,Active
+C0798,Customer 798,South,2026-07-19,74.0,At Risk
+C0799,Customer 799,West,2026-07-20,73.0,At Risk
+C0800,Customer 800,West,2026-09-24,7.0,Active
+C0801,Customer 801,North,2026-09-17,14.0,Active
+C0802,Customer 802,South,2026-04-26,158.0,At Risk
+C0803,Customer 803,North,2026-09-19,12.0,Active
+C0804,Customer 804,West,2026-06-06,117.0,At Risk
+C0805,Customer 805,South,2026-08-28,34.0,Active
+C0806,Customer 806,East,2026-05-28,126.0,At Risk
+C0807,Customer 807,West,2026-06-23,100.0,At Risk
+C0808,Customer 808,South,2026-04-26,158.0,At Risk
+C0809,Customer 809,East,2026-04-05,179.0,At Risk
+C0810,Customer 810,South,2026-09-23,8.0,Active
+C0811,Customer 811,West,2026-05-04,150.0,At Risk
+C0812,Customer 812,South,2026-09-11,20.0,Active
+C0813,Customer 813,North,2026-06-09,114.0,At Risk
+C0814,Customer 814,West,2026-08-09,53.0,Active
+C0815,Customer 815,South,2026-09-09,22.0,Active
+C0816,Customer 816,West,2026-08-26,36.0,Active
+C0817,Customer 817,South,2026-09-15,16.0,Active
+C0818,Customer 818,East,2026-09-22,9.0,Active
+C0819,Customer 819,East,2026-08-11,51.0,Active
+C0820,Customer 820,East,2026-07-10,83.0,At Risk
+C0821,Customer 821,South,2026-06-08,115.0,At Risk
+C0822,Customer 822,South,2026-09-15,16.0,Active
+C0823,Customer 823,East,2026-07-19,74.0,At Risk
+C0824,Customer 824,South,2026-08-15,47.0,Active
+C0825,Customer 825,West,2026-09-04,27.0,Active
+C0826,Customer 826,West,2026-08-06,56.0,Active
+C0827,Customer 827,West,2026-08-06,56.0,Active
+C0828,Customer 828,East,2026-08-09,53.0,Active
+C0829,Customer 829,West,2026-08-27,35.0,Active
+C0830,Customer 830,East,2026-08-01,61.0,At Risk
+C0831,Customer 831,West,2026-07-25,68.0,At Risk
+C0832,Customer 832,West,2026-08-28,34.0,Active
+C0833,Customer 833,South,2026-08-18,44.0,Active
+C0834,Customer 834,East,2026-07-01,92.0,At Risk
+C0835,Customer 835,North,2026-08-03,59.0,Active
+C0836,Customer 836,North,2026-08-16,46.0,Active
+C0837,Customer 837,North,2026-04-18,166.0,At Risk
+C0838,Customer 838,North,2026-09-01,30.0,Active
+C0839,Customer 839,South,2026-08-03,59.0,Active
+C0840,Customer 840,East,2026-08-13,49.0,Active
+C0841,Customer 841,South,2026-08-22,40.0,Active
+C0842,Customer 842,West,2026-06-09,114.0,At Risk
+C0843,Customer 843,South,2026-07-09,84.0,At Risk
+C0844,Customer 844,East,2026-08-31,31.0,Active
+C0845,Customer 845,West,2026-07-20,73.0,At Risk
+C0846,Customer 846,East,2026-05-16,138.0,At Risk
+C0847,Customer 847,East,2026-09-29,2.0,Active
+C0848,Customer 848,West,2026-04-14,170.0,At Risk
+C0849,Customer 849,East,2026-09-01,30.0,Active
+C0850,Customer 850,East,2026-09-14,17.0,Active
+C0851,Customer 851,South,2026-08-03,59.0,Active
+C0852,Customer 852,East,2026-07-12,81.0,At Risk
+C0853,Customer 853,West,,,No Delivered Orders
+C0854,Customer 854,South,2026-06-13,110.0,At Risk
+C0855,Customer 855,West,2026-08-27,35.0,Active
+C0856,Customer 856,West,2026-07-09,84.0,At Risk
+C0857,Customer 857,East,2026-08-24,38.0,Active
+C0858,Customer 858,West,2026-09-26,5.0,Active
+C0859,Customer 859,East,2026-07-22,71.0,At Risk
+C0860,Customer 860,West,2026-08-04,58.0,Active
+C0861,Customer 861,North,2026-09-13,18.0,Active
+C0862,Customer 862,North,2026-07-15,78.0,At Risk
+C0863,Customer 863,North,2026-06-17,106.0,At Risk
+C0864,Customer 864,South,2026-05-07,147.0,At Risk
+C0865,Customer 865,North,2026-08-21,41.0,Active
+C0866,Customer 866,West,2026-04-03,181.0,At Risk
+C0867,Customer 867,West,2026-09-14,17.0,Active
+C0868,Customer 868,North,2026-07-29,64.0,At Risk
+C0869,Customer 869,West,2026-07-15,78.0,At Risk
+C0870,Customer 870,East,2026-09-22,9.0,Active
+C0871,Customer 871,North,2026-04-24,160.0,At Risk
+C0872,Customer 872,South,2026-09-26,5.0,Active
+C0873,Customer 873,South,2026-09-07,24.0,Active
+C0874,Customer 874,East,2026-08-06,56.0,Active
+C0875,Customer 875,West,2026-09-17,14.0,Active
+C0876,Customer 876,West,2026-08-31,31.0,Active
+C0877,Customer 877,South,2026-09-25,6.0,Active
+C0878,Customer 878,East,2026-09-08,23.0,Active
+C0879,Customer 879,North,2026-09-26,5.0,Active
+C0880,Customer 880,West,2026-05-23,131.0,At Risk
+C0881,Customer 881,West,2026-08-06,56.0,Active
+C0882,Customer 882,North,2026-09-14,17.0,Active
+C0883,Customer 883,North,2026-09-04,27.0,Active
+C0884,Customer 884,East,,,No Delivered Orders
+C0885,Customer 885,North,2026-09-02,29.0,Active
+C0886,Customer 886,West,2026-09-28,3.0,Active
+C0887,Customer 887,North,2026-03-12,203.0,At Risk
+C0888,Customer 888,North,2026-08-24,38.0,Active
+C0889,Customer 889,North,2026-09-19,12.0,Active
+C0890,Customer 890,South,2026-08-31,31.0,Active
+C0891,Customer 891,North,2026-03-11,204.0,At Risk
+C0892,Customer 892,South,2026-07-15,78.0,At Risk
+C0893,Customer 893,East,,,No Delivered Orders
+C0894,Customer 894,North,2026-09-19,12.0,Active
+C0895,Customer 895,North,2026-06-16,107.0,At Risk
+C0896,Customer 896,South,2026-09-24,7.0,Active
+C0897,Customer 897,West,2026-09-06,25.0,Active
+C0898,Customer 898,East,2026-09-30,1.0,Active
+C0899,Customer 899,South,2026-08-19,43.0,Active
+C0900,Customer 900,West,2026-03-11,204.0,At Risk
+C0901,Customer 901,West,2026-08-24,38.0,Active
+C0902,Customer 902,East,2026-09-14,17.0,Active
+C0903,Customer 903,North,2026-07-04,89.0,At Risk
+C0904,Customer 904,West,2026-09-03,28.0,Active
+C0905,Customer 905,South,2026-07-26,67.0,At Risk
+C0906,Customer 906,East,2026-05-27,127.0,At Risk
+C0907,Customer 907,North,2026-09-01,30.0,Active
+C0908,Customer 908,East,2026-07-30,63.0,At Risk
+C0909,Customer 909,South,2026-08-07,55.0,Active
+C0910,Customer 910,West,2026-09-01,30.0,Active
+C0911,Customer 911,West,2026-05-11,143.0,At Risk
+C0912,Customer 912,North,2026-04-05,179.0,At Risk
+C0913,Customer 913,North,2026-09-07,24.0,Active
+C0914,Customer 914,East,2026-09-07,24.0,Active
+C0915,Customer 915,East,2026-08-29,33.0,Active
+C0916,Customer 916,North,2026-08-06,56.0,Active
+C0917,Customer 917,South,2026-07-21,72.0,At Risk
+C0918,Customer 918,South,2026-07-03,90.0,At Risk
+C0919,Customer 919,East,2026-07-19,74.0,At Risk
+C0920,Customer 920,South,2026-07-08,85.0,At Risk
+C0921,Customer 921,West,2026-02-22,221.0,At Risk
+C0922,Customer 922,East,2026-09-03,28.0,Active
+C0923,Customer 923,East,2026-09-06,25.0,Active
+C0924,Customer 924,West,2026-08-11,51.0,Active
+C0925,Customer 925,South,2026-09-01,30.0,Active
+C0926,Customer 926,South,2026-07-26,67.0,At Risk
+C0927,Customer 927,West,2026-07-03,90.0,At Risk
+C0928,Customer 928,West,2026-08-24,38.0,Active
+C0929,Customer 929,East,2026-07-16,77.0,At Risk
+C0930,Customer 930,South,2026-09-22,9.0,Active
+C0931,Customer 931,South,2026-04-12,172.0,At Risk
+C0932,Customer 932,South,2026-09-18,13.0,Active
+C0933,Customer 933,East,2026-08-30,32.0,Active
+C0934,Customer 934,West,2026-09-24,7.0,Active
+C0935,Customer 935,East,2026-09-28,3.0,Active
+C0936,Customer 936,West,2026-09-18,13.0,Active
+C0937,Customer 937,South,2026-09-18,13.0,Active
+C0938,Customer 938,South,2026-09-10,21.0,Active
+C0939,Customer 939,North,2026-01-06,268.0,At Risk
+C0940,Customer 940,West,2026-09-25,6.0,Active
+C0941,Customer 941,West,2026-09-30,1.0,Active
+C0942,Customer 942,South,2026-09-18,13.0,Active
+C0943,Customer 943,South,2026-09-05,26.0,Active
+C0944,Customer 944,South,2026-07-17,76.0,At Risk
+C0945,Customer 945,North,2026-09-22,9.0,Active
+C0946,Customer 946,West,2026-09-26,5.0,Active
+C0947,Customer 947,West,,,No Delivered Orders
+C0948,Customer 948,East,2026-08-05,57.0,Active
+C0949,Customer 949,North,2026-08-12,50.0,Active
+C0950,Customer 950,East,2026-08-14,48.0,Active
+C0951,Customer 951,North,2026-05-21,133.0,At Risk
+C0952,Customer 952,West,2026-09-17,14.0,Active
+C0953,Customer 953,North,2026-07-23,70.0,At Risk
+C0954,Customer 954,East,2026-09-22,9.0,Active
+C0955,Customer 955,South,2026-08-28,34.0,Active
+C0956,Customer 956,West,2026-09-29,2.0,Active
+C0957,Customer 957,South,2026-09-11,20.0,Active
+C0958,Customer 958,West,2026-06-20,103.0,At Risk
+C0959,Customer 959,West,2026-08-21,41.0,Active
+C0960,Customer 960,South,2026-07-05,88.0,At Risk
+C0961,Customer 961,East,2026-09-22,9.0,Active
+C0962,Customer 962,West,2026-09-26,5.0,Active
+C0963,Customer 963,North,2026-08-27,35.0,Active
+C0964,Customer 964,East,2026-08-25,37.0,Active
+C0965,Customer 965,North,2026-05-30,124.0,At Risk
+C0966,Customer 966,North,2026-06-21,102.0,At Risk
+C0967,Customer 967,North,2026-05-06,148.0,At Risk
+C0968,Customer 968,South,2026-09-16,15.0,Active
+C0969,Customer 969,South,2026-06-10,113.0,At Risk
+C0970,Customer 970,West,2026-09-16,15.0,Active
+C0971,Customer 971,West,2026-08-07,55.0,Active
+C0972,Customer 972,South,2026-09-18,13.0,Active
+C0973,Customer 973,West,2026-07-30,63.0,At Risk
+C0974,Customer 974,South,2026-08-05,57.0,Active
+C0975,Customer 975,West,2026-09-17,14.0,Active
+C0976,Customer 976,South,2026-09-06,25.0,Active
+C0977,Customer 977,North,,,No Delivered Orders
+C0978,Customer 978,South,2026-09-04,27.0,Active
+C0979,Customer 979,South,2026-08-07,55.0,Active
+C0980,Customer 980,East,2026-06-04,119.0,At Risk
+C0981,Customer 981,East,2026-09-28,3.0,Active
+C0982,Customer 982,West,2026-09-14,17.0,Active
+C0983,Customer 983,East,2026-09-03,28.0,Active
+C0984,Customer 984,South,2026-09-16,15.0,Active
+C0985,Customer 985,North,2026-03-07,208.0,At Risk
+C0986,Customer 986,East,2026-08-14,48.0,Active
+C0987,Customer 987,East,2026-08-11,51.0,Active
+C0988,Customer 988,East,2026-09-26,5.0,Active
+C0989,Customer 989,West,2026-09-05,26.0,Active
+C0990,Customer 990,South,2026-09-05,26.0,Active
+C0991,Customer 991,West,2026-06-12,111.0,At Risk
+C0992,Customer 992,South,2026-07-18,75.0,At Risk
+C0993,Customer 993,West,2026-07-13,80.0,At Risk
+C0994,Customer 994,South,2026-07-28,65.0,At Risk
+C0995,Customer 995,North,2026-05-09,145.0,At Risk
+C0996,Customer 996,West,2026-09-07,24.0,Active
+C0997,Customer 997,West,2026-09-14,17.0,Active
+C0998,Customer 998,West,2026-08-15,47.0,Active
+C0999,Customer 999,West,2026-07-06,87.0,At Risk
+C1000,Customer 1000,West,2026-06-14,109.0,At Risk

@@ -1,0 +1,33 @@
+E-COMMERCE CUSTOMER ANALYSIS
+
+Total customers: 1000
+Total orders: 5000
+Delivered orders: 4271
+
+MONTHLY DELIVERED REVENUE
+order_date
+2026-01    3339127.87
+2026-02    3153816.62
+2026-03    3391152.84
+2026-04    3248569.20
+2026-05    3242655.07
+2026-06    3250484.81
+2026-07    3405433.50
+2026-08    3548286.59
+2026-09    3237059.16
+Freq: M
+
+REVENUE BY CATEGORY
+category
+Home & Kitchen    8335145.57
+Electronics       7786153.63
+Beauty            6108790.37
+Sports            3983173.14
+Fashion           3603322.95
+
+REVENUE BY REGION
+region
+West     8062840.87
+South    7649097.98
+East     7490050.55
+North    6614596.26
