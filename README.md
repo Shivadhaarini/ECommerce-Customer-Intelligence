@@ -6,6 +6,9 @@ An end-to-end data analytics and machine learning project that analyzes e-commer
 
 This project transforms e-commerce data into useful business insights using Python, SQL, data visualization, and machine learning.
 
+📸 Dashboard Preview
+
+![E-Commerce Customer Intelligence Dashboard](screenshots/dashboard_overview.png)
 ✨ Features
 
  📊 Interactive Streamlit dashboard
